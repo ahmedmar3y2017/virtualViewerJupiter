@@ -1,0 +1,765 @@
+{
+    "windowTitle": "VirtualViewer HTML5",
+    "utilityToolbar": {
+        "saveDocument": {
+            "title": "Dokument speichern",
+            "saveMenuOption": "Speichern",
+            "saveWithRedactionsMenuOption": "Überarbeitungen übernehmen und speichern",
+            "saveWithRedactionsAnnotationsMenuOptions": "Überarbeitungen und Anmerkungen übernehmen und speichern"
+        },
+        "saveDocumentAs": {
+            "title": "Dokument speichern als"
+        },
+        "uploadDocument": {
+            "title": "Dokument hochladen"
+        },
+        "exportDocument": {
+            "title": "Dokument exportieren"
+        },
+        "sendDocument": {
+            "title": "Dokument senden"
+        },
+        "emailDocument": {
+            "title": "Dokument per E-Mail versenden"
+        },
+        "printDocument": {
+            "title": "Drucken"
+        },
+        "separator": {
+            "title": ""
+        },
+        "miniSeparator": {
+            "title": ""
+        },
+        "zoomIn": {
+            "title": "Vergrößern"
+        },
+        "zoomOut": {
+            "title": "Verkleinern"
+        },
+        "rubberbandZoom": {
+            "title": "Gummiband-Zoom"
+        },
+        "magnifier": {
+            "title": "Bildschirmlupe"
+        },
+        "fitToWindow": {
+            "title": "An Fenster anpassen"
+        },
+        "fitToHeight": {
+            "title": "An Höhe anpassen"
+        },
+        "fitToWidth": {
+            "title": "An Breite anpassen"
+        },
+        "goToFirstPage": {
+            "title": "Zur ersten Seite gehen"
+        },
+        "goToPreviousPage": {
+            "title": "Zur vorherigen Seite gehen"
+        },
+        "jumpToPage": {
+            "title": "Springen zu Seite"
+        },
+        "goToNextPage": {
+            "title": "Zur nächsten Seite gehen"
+        },
+        "goToLastPage": {
+            "title": "Zur letzten Seite gehen"
+        },
+        "rotateRight": {
+            "title": "Nach rechts drehen"
+        },
+        "rotateLeft": {
+            "title": "Nach links drehen"
+        },
+        "pictureControls": {
+            "title": "Bildsteuerelemente"
+        },
+        "crop": {
+            "title": "Zuschneiden"
+        },
+        "toggleImageInfo": {
+            "title": "Bildinformationen"
+        },
+        "showAboutDialog": {
+            "title": "Informationen"
+        },
+        "showUserPreferencesDialog": {
+            "title": "Benutzereinstellungen"
+        },
+        "toggleThumbnailPanel": {
+            "title": "Miniaturansicht ein-\/ausschalten"
+        },
+        "fileGroup": "Datei",
+        "zoomGroup": "Zoom",
+        "pagesGroup": "Seiten",
+        "infoGroup":  "Info und Einstellungen",
+        "pageManipulationGroup": "Seitenmanipulation",
+        "toggleFullScreen": "Vollbild ein-\/ausschalten"
+
+    },
+    "annToolbar": {
+        "stickyNote": {
+            "title": "Kurznotiz"
+        },
+        "textEdit": {
+            "title": "Textbearbeitung"
+        },
+        "imageRubberStamp": {
+            "title": "Bildstempel"
+        },
+        "highlightRectangle": {
+            "title": "Rechteck hervorheben"
+        },
+        "redactionArea": {
+            "title": "Bearbeitungsbereich"
+        },
+        "line": {
+            "title": "Linie"
+        },
+        "arrow": {
+            "title": "Pfeil"
+        },
+        "freehand": {
+            "title": "Freihand"
+        },
+        "filledRectangle": {
+            "title": "Ausgefülltes Rechteck"
+        },
+        "filledEllipse": {
+            "title": "Ausgefüllte Ellipse"
+        },
+        "filledPolygon": {
+            "title": "Ausgefülltes Vieleck"
+        },
+        "rectangle": {
+            "title": "Rechteck"
+        },
+        "ellipse": {
+            "title": "Ellipse"
+        },
+        "polygon": {
+            "title": "Vieleck"
+        },
+        "layerManager": {
+            "title": "Ebenenmanager"
+        },
+        "createWatermark": {
+            "title": "Wasserzeichen hinzufügen"
+        },
+        "textAndStampsGroup": "Text und Stempel",
+        "markupGroup": "Markup",
+        "shapesGroup":  "Formen"
+    },
+    "layerManager": {
+        "title": "Ebenenmanager",
+        "annLayersTitle": "Anmerkungsebenen",
+        "imageLayersTitle": "Bildebenen",
+        "activeLayer": "Aktive Ebene",
+        "emptyLayerDialogMessage": "Es existieren keine Ebenen.",
+        "numericLayerLabel": "Ebene",
+        "oneLayerPerAnnotation": "Ebenen werden automatisch erstellt, wenn Anmerkungen hinzugefügt werden.",
+        "addLayer": {
+            "value": "Hinzufügen",
+            "title": "Neue Ebene erstellen"
+        },
+        "deleteLayer": {
+            "value": "-",
+            "title": "Ebene löschen"
+        },
+        "consolidateLayer": {
+            "value": "Konsolidieren",
+            "title": "Ebenen konsolidieren"
+        },
+        "renameLayer": {
+            "value": "R",
+            "title": "Ebene umbenennen"
+        },
+        "layerVisible": "Diese Ebene ist sichtbar",
+        "layerHidden": "Diese Ebene ist ausgeblendet",
+        "allLayerVisibility": "Sichtbarkeit für alle Ebenen ein-\/ausschalten",
+
+        "cancelButton": "Abbrechen",
+        "okButton": "OK"
+    },
+    "documentNameFields":  {
+        "heading": "Dokumentname",
+        "documentName": "Dokumentname"
+    },
+    "pageRangeFields": {
+        "heading": "Seiten",
+        "complexRange": "Komplexer Bereich",
+        "currentPage": "Aktuelle Seite",
+        "allPages": "Alle Seiten"
+    },
+    "formatFields":  {
+        "heading": "Format",
+        "pdf": "PDF",
+        "tiff": "TIFF",
+        "original": "Original"
+    },
+    "annotationFields":  {
+        "heading": "Anmerkungen",
+        "includeAnnotations": "Anmerkungen einschließen",
+        "text": "Text",
+        "nonText": "Nicht-Text"
+    },
+    "redactionFields":  {
+        "heading": "Überarbeitungen",
+        "includeRedactions": "Überarbeitungen übernehmen (dauerhaft)",
+        "includeRedactionTags": "Überarbeitungs-Tags einbeziehen"
+    }, 
+    "documentNotesFields":  {
+        "heading": "Dokumentnotizen",    
+        "includeDocumentNotes":  "Dokumentnotizen einbeziehen" 
+    }, 
+    "watermarksFields":  {
+        "heading": "Wasserzeichen",    
+        "includeWatermarks":  "Wasserzeichen einbeziehen" 
+    }, 
+    "commonDialog": {
+        "closeButton": "Schließen",
+        "cancelButton":  "Abbrechen"
+    },
+    "tagAllRedactionsDialog": {
+        "title": "Alle Überarbeitungen taggen",
+        "tagsLabel": "Tag(s):",
+        "okButton": "OK",
+        "cancelButton": "Abbrechen", 
+        "errorMessage": "Fehler! Bitte ein Tag auswählen."
+    },
+    "saveAsDialog": {
+        "title": "Speichern unter",
+        "confirmButton": "Speichern unter",
+        "errors": {
+            "noDocumentName": "Bitte einen neuen Dokumentnamen eingeben."
+        }
+    },
+    "copyToNewDialog": {
+        "title": "Neues Dokument erstellen",
+        "confirmButton": "Erstellen"
+    },
+    "uploadDocumentDialog": {
+        "title": "Dokument hochladen",
+        "chooseFileButton": "Datei auswählen",
+        "okButton": "OK",
+        "cancelButton": "Abbrechen",
+        "uploadDisabled": "Das Hochladen von Dokumenten wurde vom Administrator deaktiviert."
+    },
+    "exportDialog": {
+        "title": "Dokument exportieren",
+        "confirmButton": "Exportieren"
+    },
+    "emailDialog": {
+        "title": "Dokument per E-Mail versenden",
+        "confirmButton": "Senden",
+
+        "sendFieldCaption": "Senden",
+        "fromFieldCaption": "Von",
+        "toFieldCaption": "An",
+        "subjectFieldCaption": "Betreff",
+        "subjectFieldDefaultContents": "VirtualViewer-Dokument im Anhang",
+        "bodyFieldDefaultContents": "Bitte sehen Sie sich das von VirtualViewer versandte angehängte Dokument an."
+    },
+    "printDialog": {
+        "title": "Drucken",
+        "confirmButton": "Drucken",
+
+        "destination": "Ziel",
+        "local": "Drucken",
+        "pdf": "Als PDF speichern"
+    },
+    "cropDialog": {
+        "title": "Zuschneiden",
+        "message": "Der Vorschaumodus für das Zuschneiden wird aktiviert. Durch das Zuschneiden werden alle Anmerkungen von Ihrer Seite entfernt. Um den Zuschnitt zu speichern, verwenden Sie entweder die Funktion „Exportieren“ oder „Speichern unter“, um den Zuschnitt an ein neues Dokument zu senden, oder die Funktion „Speichern“, um die Datei zu überschreiben",
+        "cropButton": "OK",
+        "cancelButton": "Abbrechen"
+    },
+    "watermarksDialog": {
+        "title": "Wasserzeichen",
+        "confirmButton":  "Wasserzeichen anwenden", 
+        "cancelButton":  "Schließen", 
+
+        "existingWatermarks":  {
+            "heading": "Erstellen oder bearbeiten", 
+            "createNewOption": "Neu erstellen" 
+        },
+
+        "editText": {
+            "heading": "Text bearbeiten",
+            "textControlLabel":  "Einfügen:", 
+            "username":  "Bearbeitet von",
+            "serverTime":  "Datum\/Zeit erstellt",
+            "printTime":  "Datum\/Zeit gedruckt",
+            "pageNumber":  "Seitenzahl", 
+            "totalPages": "Seiten gesamt",
+            "documentName":  "Dokumentname"     
+        },
+        "appearance":  {
+            "heading": "Erscheinungsbild", 
+            "horizontal":  "Horizontal",
+            "vertical":  "Vertikal",
+            "diagonal":  "Diagonal",
+            "watermarkShortPlaceholder":  "ABC", 
+            "watermarkPlaceholder":  "Wasserzeichen", 
+            "fontSize":  "Schriftgröße",
+            "stretchFont": "Bild strecken", 
+            "transparent":  "Transparent",
+            "opaque": "Nicht transparent"  
+        },
+        "errors": {
+            "noText":  "Wasserzeichen muss Text enthalten"     
+        } 
+    },
+    "thumbContextMenu": {
+        "selectAll": "Alle auswählen",
+        "selectNone": "Keine auswählen",
+        "cut": "Ausschneiden",
+        "copy": "Kopieren",
+        "delete": "Löschen",
+        "insertBefore": "Vorher einfügen",
+        "insertAfter": "Nachher einfügen",
+        "newDocument": "In neues Dokument kopieren",
+        "cutNewDocument": "In neues Dokument ausschneiden",
+        "addBookmark": "Lesezeichen hinzufügen"
+    },
+    "thumbPageLabel": "Seite",
+    "textAnnContextMenu": {
+        "newTextAnn": "Neue Textanmerkung"
+    },
+    "selectTextContextMenu": {
+        "copy": "Kopieren",
+        "highlight": "Hervorheben",
+        "redact": "Überarbeiten",
+        "undoSplit": "Dokumentvergleich schließen"
+    },
+    "docThumbContextMenu": {
+        "splitImage": "Dokumentvergleich"
+    },
+    "thumbnails": {
+        "pageTab": {"title": "Seitentab"},
+        "documentTab": {"title": "Dokumenttab"},
+        "searchTab": {"title": "Suchtab"},
+        "notesTab": {"title": "Anmerkungstab"},
+        "bookmarksTab": {"title": "Lesezeichentab"}
+    },
+    "loadWaitDialog": "Bitte warten, bis Ihr Bild geladen wird",
+    "saveWaitDialog": "Bitte warten, während Ihr Dokument gespeichert wird",
+    "printWaitDialog": "Bitte warten, während Ihr Dokument gedruckt wird",
+    "emailWaitDialog": "Bitte warten, während Ihr Dokument per E-Mail versandt wird",
+    "deleteAnnDialog": {
+        "title": "Anmerkung löschen?",
+        "value": "Möchten Sie diese Anmerkung wirklich löschen?",
+        "deleteButton": "Löschen",
+        "cancelButton": "Abbrechen"
+    },
+    "clipboardDialog": {
+        "clipboardTitleStart": "In Zwischenablage kopieren",
+        "okButton": "OK"
+    },
+    "bookmarkDialog": {
+        "title": "Neues Lesezeichen erstellen",
+        "editTitle": "Lesezeichen bearbeiten",
+        "bookmarkNote": "Notiz",
+        "okButton": "OK",
+        "cancelButton": "Abbrechen",
+        "errors": {
+            "noPage": "Geben Sie bitte eine Seitenzahl ein, um ein Lesezeichen zu bearbeiten",
+            "virtualDocument": "Lesezeichen werden für virtuelle Dokumente nicht unterstützt.",
+            "noBookmarks": "Für die angegebene Seite existieren keine Lesezeichen"
+        }
+    },
+    "bookmarks": {
+        "deleteButton": "Lesezeichen löschen",
+        "bookmarkDefault": "Lesezeichen"
+    },
+    "passwordProtectedFileDialog": {
+        "title": "Passwortgeschützte Datei",
+        "downloadButton": "Herunterladen",
+        "cancelButton": "Abbrechen",
+        "error": "Die Datei ist verschlüsselt oder passwortgeschützt"
+    },
+    "exportUnsupportedFileDialog": {
+        "title": "Nicht unterstütztes Dateiformat",
+        "downloadButton": "Herunterladen",
+        "cancelButton": "Abbrechen",
+        "error": "Dieses Format kann nicht angezeigt werden"
+    },
+    "splitNotAllowedDialog": {
+        "title": "Dokumentvergleich nicht erlaubt",
+        "error": "Öffnen Sie bitte ein Dokument, bevor Sie den Dokumentvergleichsmodus starten.",
+        "OkButton": "OK"
+    },
+    "addLayerDialog": {
+        "layerName": "Ebenenname"
+    },
+    "deleteLayerDialog": {
+        "value": "Möchten Sie diese Ebene wirklich löschen?"
+    },
+    "renameLayerDialog": {
+        "layerName": "Ebenenname"
+    },
+    "aboutDialog": {
+        "productName": "VirtualViewer HTML5",
+        "versionPrefix": "v",
+        "okButton": "OK",
+        "helpButton": "Hilfe",
+        "text": "®1996-2019 Alle Rechte vorbehalten. (Lizenzinformationen.) VirtualViewer und das VirtualViewer-Logo sind Warenzeichen der Snowbound Software Corporation. Alle Rechte vorbehalten. Einige der verwendeten Warenzeichen werden unter Lizenz von Partnerunternehmen verwendet."
+    },
+    "notes": {
+        "addNote": "Notiz hinzufügen",
+        "deleteNote": "Notiz löschen",
+        "selectTemplate": "Vorlage auswählen",
+        "created": "Erstellt:",
+        "edited": "Bearbeitet:",
+        "applyButton": "Übernehmen",
+        "cancelButton": "Abbrechen"
+
+    },
+    "annPopUp": {
+        "editText": {
+            "title": "Text bearbeiten",
+            "value": "Text bearbeiten",
+            "save": "Speichern",
+            "cancel": "Abbrechen"
+        },
+        "fontColorGroupLabel": {
+            "value": "Schriftfarbe:"
+        },
+        "lineColorGroupLabel": {
+            "value": "Linienfarbe:"
+        },
+        "fillColorGroupLabel": {
+            "value": "Füllfarbe:"
+        },
+        "borderColorGroupLabel": {
+            "value": "Rahmenfarbe:"
+        },
+        "colorGrid": {
+            "more": "Weitere Farben ...",
+            "custom": "Benutzerdefiniert:"
+        },
+        "lineSizeGroupLabel": {
+            "value": "Liniengröße:"
+        },
+        "borderSizeGroupLabel": {
+            "value": "Rahmengröße:"
+        },
+        "fontFaceLabel": {
+            "value": "Schriftart:"
+        },
+        "fontSizeLabel": {
+            "value": "Schriftgröße:"
+        },
+        "bold": "Fett",
+        "italic": "Kursiv",
+        "tag": "Tag(s):",
+        "addAnnNote": "Anmerkungsnotiz hinzufügen",
+        "showAnnNotes": {
+            "title": "Anmerkungsnotizen",
+            "value": "Notizen"
+        },
+        "deleteAnn": {
+            "title": "Löschen",
+            "value": "Löschen"
+        },
+        "annCreateText": "Erstellt von: ",
+        "annDateText": "Am: ",
+        "annUnknownUser": "Unbekannter Benutzer",
+        "annRevisions": {
+          "viewRevisions": { "title": "Detaillierte Revisionshistorie anzeigen" },
+          "modifyUser": "Abgeändert durch: ",
+          "modifyDate":  "Am: "
+        }
+    },
+    "annotationTag": {
+        "deleteButton": "Tag entfernen",
+        "addButton": "Tag hinzufügen"
+    },
+    "imageInfo": {
+        "dialogTitle": "Eigenschaften von Dokument & Seite",
+        "documentInfoHeader": "Dokumentinformationen",
+        "pageInfoHeader": "Seiteninformationen",
+        "documentId": "Dokumentkennung",
+        "documentDisplayName": "Dokumentname",
+        "documentByteSize": "Dateigröße (Bytes)",
+        "pageCount": "Seitenanzahl",
+        "documentFormat": "Dateiformat",
+        "compressionType": "Komprimierungstyp",
+        "imageSizePixels": "Größe in Pixel",
+        "imageSizeInches": "Bildgröße",
+        "dpi": "DPI",
+        "bitDepth": "Bittiefe",
+        "pageNumber": "Seitenzahl",
+        "tiffTag315": "Copyright"
+    },
+    "search": {
+        "startSearch": {
+            "title": "Los"
+        },
+        "docSearch": {
+            "title": "Dokument durchsuchen"
+        },
+        "annSearch": {
+            "title": "Anmerkungen durchsuchen"
+        },
+        "previousMatch": {
+            "title": "Vorherige Übereinstimmung"
+        },
+        "nextMatch": {
+            "title": "Nächste Übereinstimmung"
+        },
+        "redactAllMatches": {
+            "title": "Alle Übereinstimmungen überarbeiten"
+        },
+        "redactCurrentMatch": {
+            "title": "Aktuelle Übereinstimmung überarbeiten"
+        },
+        "tagAllRedactions": {
+            "title": "Alle Überarbeitungen taggen"
+        },
+        "basicSearchMode": {
+            "title": "Grundlegende Suche"
+        },
+        "patterns": {
+            "ssn": "Sozialversicherungsnummern",
+            "telephone": "Telefonnummern",
+            "cc": "Kreditkartennummern",
+            "email": "E-Mail-Adressen"
+        }
+    },
+    "permanentChangeDialog": {
+        "title": "Permanente Änderung",
+        "confirmMessageLine1": "Diese Aktion wird Ihr Originaldokument permanent abändern.",
+        "confirmMessageLine2": "Sind Sie sicher, dass Sie fortfahren möchten?"
+    },
+    "ocrDialog": {
+        "title": "OCR für ein Nicht-Textdokument",
+        "confirmMessageLine1": "Dies ist kein Textdokument. VirtualViewer wird über optische Zeichenerkennung (OCR) versuchen, Text aus diesem Dokument auszulesen. Dies ist nicht bei allen Dokumenten und nicht bei allen Texten in einem Dokument möglich.",
+        "confirmMessageLine2": "Möchten Sie fortfahren?",
+        "confirmButton": "OCR durchführen",
+        "waitMessage": "OCR läuft ..."
+    },
+    "annotationNavigation": {
+        "showAnnotationNaviPanel": {
+            "title": "Anmerkungsnavigation ein-\/ausschalten"
+        },
+        "goToPrevPageWithAnn": {
+            "title": "Vorherige Anmerkungsseite"
+        },
+        "goToNextPageWithAnn": {
+            "title": "Nächste Anmerkungsseite"
+        },
+        "showThumbsWithAnnotationsOn": {
+            "title": "Filter einschalten"
+        },
+        "showThumbsWithAnnotationsOff": {
+            "title": "Filter ausschalten"
+        }
+    },
+    "pictureControls": {
+        "title": "Bildsteuerelemente",
+        "brightnessIcon": {
+            "title": "Helligkeit (Symbol)"
+        },
+        "brightnessSlider": {
+            "title": "Helligkeit (Schieberegler)"
+        },
+        "brightnessValue": {
+            "title": "Helligkeit (Wert)"
+        },
+        "contrastIcon": {
+            "title": "Kontrast (Symbol)"
+        },
+        "contrastSlider": {
+            "title": "Kontrast (Schieberegler)"
+        },
+        "contrastValue": {
+            "title": "Kontrast (Wert)"
+        },
+        "gammaIcon": {
+            "title": "Gamma (Symbol)"
+        },
+        "gammaSlider": {
+            "title": "Gamma (Schieberegler)"
+        },
+        "gammaValue": {
+            "title": "Gamma (Wert)"
+        },
+        "okButton": "OK",
+        "cancelButton": "Abbrechen"
+    },
+    "emptyEmailFields": {
+        "dialogTitle": "Fehlende Informationen",
+        "okButton": "OK",
+        "missingFrom": "Das Feld „Von“ muss ausgefüllt werden.",
+        "missingTo": "Das Feld „An“ muss ausgefüllt werden."
+    },
+    "confirmChangesDialog": {
+        "dialogTitle": "Änderungen bestätigen",
+        "yesButton": "Ja",
+        "noButton": "Nein",
+        "cancelButton": "Abbrechen",
+        "message": "Möchten Sie die Änderungen an Folgendem speichern: "
+    },
+    "browserClose": {
+        "message": "Sie haben während dieser Sitzung nicht gespeicherte Änderungen vorgenommen."
+    },
+    "disableToolbarDialog": {
+        "okButton": "OK"
+    },
+    "errorDialog": {
+        "title": "Fehler",
+        "okButton": "OK"
+    },
+    "errors": {
+        "deleteLayerPermission": "Sie sind nicht dazu berechtigt, diese Ebene zu löschen.",
+        "renameLayerPermission": "Sie sind nicht dazu berechtigt, diese Ebene umzubenennen.",
+        "createAnnOnLayerPermission": "Sie sind nicht dazu berechtigt, Anmerkungen auf dieser Ebene zu erstellen.",
+        "editAnnOnLayerPermission": "Sie sind nicht dazu berechtigt, Anmerkungen auf dieser Ebene zu bearbeiten.",
+        "invalidLayerName": "Ungültiger Ebenenname. Bitte wählen Sie einen neuen Ebenennamen aus:",
+        "layerNameAlreadyExists": "Es gibt bereits eine Ebene mit diesem Namen.",
+        "tabTooManyOpen": "Zu viele Tabs geöffnet.",
+        "tabIndexOutOfBounds": "Tabindex außerhalb des zulässigen Bereichs.",
+        "tabCloseLastTab": "Es ist nicht zulässig, den letzten Tab zu schließen.",
+        "searchNotSearchable": "Dokument kann nicht durchsucht werden.",
+        "virtualDocumentNotes": "Notizen werden für virtuelle Dokumente noch nicht unterstützt",
+        "virtualDocumentBookmark": "Lesezeichen werden für virtuelle Dokumente noch nicht unterstützt.",
+        "virtualDocumentSaving": "Bei virtuellen Dokumenten kann nicht im Original gespeichert werden. Verwenden Sie die Funktion „Exportieren“ oder „Speichern unter“.",
+        "virtualDocumentFeature": "Die Funktion, die Sie verwenden möchten, wird für virtuelle Dokumente noch nicht unterstützt.",
+        "virtualDocumentSearch": "Suchen werden für virtuelle Dokumente noch nicht unterstützt.",
+        "invalidColorString": "Ungültige Farbzeichenfolge.",
+        "imageFailedToLoad": "Bild konnte nicht geladen werden",
+        "onePageLimit": "Dokument muss mindestens 1 Seite enthalten",
+        "annotationsDisabled": "Anmerkungen sind deaktiviert",
+        "splitScreenDisabled": "Der Dokumentvergleich wurde vom Administrator deaktiviert.",
+        "noText": "Kein auswählbarer Text auf dieser Seite",
+        "redactionsDisabled": "Überarbeitungen sind deaktiviert",
+        "failureLoadingUserPreferences": "Beim Laden der Benutzereinstellungen ist ein Problem aufgetreten. Die Benutzereinstellungen werden auf die Standardeinstellungen zurückgesetzt.",
+        "noLayersExist": "Es sind keine Ebenen vorhanden.",
+        "bookmarkExists": "Ein Lesezeichen ist bereits vorhanden!",
+        "pageHasNoBookmark": "Auf der Seite gibt es kein Lesezeichen, das gelöscht werden kann.",
+        "clipboardEmpty": "Es befinden sich keine Seiten in der Zwischenablage.",
+        "cropBlock": "Auf der Vorschau des Zuschnitts kann nichts angemerkt werden. Speichern Sie den Zuschnitt und erstellen Sie dann die Anmerkung.",
+        "cropDisabled": "Die Zuschneidefunktion wurde vom Administrator deaktiviert.",
+        "uploadExistingDocument": "Ein Dokument mit diesem Namen existiert bereits. Benennen Sie die Datei bitte um und versuchen Sie es erneut",
+        "complexRangeEmpty": "Leerer komplexer Seitenbereich",
+        "complexRangeInvalidCharacter": "Ungültiges Zeichen im komplexen Seitenbereich:",
+        "complexRangePageOutOfBounds": "Eine oder mehrere Seiten im ausgewählten Bereich befinden sich außerhalb des zulässigen Bereichs ",
+        "complexRangeUnsupportedSyntax": "Fehlerhafte Syntax für die Seiten. Stellen Sie sicher, dass sich die kleinere Zahl links neben dem Strich befindet.",
+        "documentTooTallForIE":  "Die Dimensionen dieses Dokuments sind zu groß, um in Internet Explorer angezeigt zu werden. Wechseln Sie bitte den Browser oder sprechen Sie mit dem Administrator.",
+        "printDocumentMustBeOpened": "Das Dokument, das Sie drucken möchten, ist nicht im VirtualViewer geöffnet.",
+        "printTooManyPagesForIE": "Aufgrund der Einschränkungen von Internet Explorer wird das Drucken von über %n Seiten in einem Vorgang nicht unterstützt.  Teilen Sie Ihre Aufgabe in Gruppen von %n oder weniger Seiten auf.",
+        "printTooManyPagesForFirefox": "Aufgrund der Einschränkungen von Firefox wird das Drucken von über %n Seiten in einem Vorgang nicht unterstützt.  Teilen Sie Ihre Aufgabe in Gruppen von %n oder weniger Seiten auf.",
+        "documentNotFound": "Dokument nicht gefunden: "
+    },
+
+    "hotkeyHints": {
+        "title": "Tastenkombinationen",
+        "zoomIn": "Vergrößern",
+        "zoomOut": "Verkleinern",
+        "flipX": "Horizontal kippen",
+        "flipY": "Vertikal kippen",
+        "exportDocument": "Dokument exportieren",
+        "printDocument": "Dokument drucken",
+        "invert": "Farbe umkehren",
+        "lastPage": "Letzte Seite",
+        "firstPage": "Erste Seite",
+        "previousPage": "Vorherige Seite",
+        "nextPage": "Nächste Seite",
+        "rotateCounter": "Gegen den Uhrzeigersinn drehen",
+        "rotateClock": "Im Uhrzeigersinn drehen",
+        "showAboutDialog": "Dialog mit Informationen anzeigen",
+        "showKeyboardHints": "Tastaturhinweise anzeigen",
+        "toggleLayerManager": "Ebenenmanager ein-\/ausschalten",
+        "toggleThumbnailPanel": "Bereich für Miniaturansicht ein-\/ausschalten",
+        "fitHeight": "An Höhe anpassen",
+        "fitWidth": "An Breite anpassen",
+        "fitWindow": "An Fenster anpassen",
+        "scrollUpBy33Percent": "33 % nach oben scrollen",
+        "scrollDownBy33Percent": "33 % nach unten scrollen",
+        "panLeft": "Nach links schwenken",
+        "panRight": "Nach rechts schwenken",
+        "panUp": "Nach oben schwenken",
+        "panDown": "Nach unten schwenken",
+        "thumbPageDown": "Miniaturansicht Seite nach unten",
+        "thumbPageUp": "Miniaturansicht Seite nach oben",
+        "toggleHGuide": "Horizontale Führungslinie ein-\/ausschalten",
+        "toggleVGuide": "Vertikale Führungslinie ein-\/ausschalten",
+        "toggleCrosshairGuide": "Fadenkreuz-Führungslinie ein-\/ausschalten",
+        "copyText": "Ausgewählten Text kopieren",
+        "searchText": "Suchtext",
+        "enterSelectTextMode": "Textauswahlmodus aktivieren",
+        "enterGuideMode": "Führungslinienmodus aktivieren",
+        "toggleTextSelectionMode": "Spaltentextauswahl ein-\/ausschalten",
+        "toggleImageInfo": "Bildinformationsdialog ein-\/ausschalten",
+        "enterPanMode": "Schwenkmodus aktivieren",
+        "collapseStickyNotes": "Kurznotizen reduzieren",
+        "expandStickyNotes": "Kurznotizen erweitern",
+        "showUserPreferences": "Benutzereinstellungen anzeigen"
+    },
+
+    "pageManipulations": {
+        "disabled": "Seitenänderungen wurden vom Administrator in der Konfiguration deaktiviert.",
+        "redactions": "Seitenänderungen werden derzeit nicht in Dokumenten mit Überarbeitungen unterstützt.",
+        "restrictedFormat": "Seitenänderungen sind für dieses Dokumentformat deaktiviert."
+    },
+
+    "redactionWarningDialog": {
+        "okButton": "OK",
+        "title": "Warnung zur Überarbeitungsfunktion: Sorgfältig lesen",
+        "redactedVersionTitle": "Überarbeitete Version erstellen",
+        "redactedVersionText": "Wenn in einem Dokument ein Bereich zur Überarbeitung markiert wird, bleibt der Text darunter für alle Benutzer sichtbar, falls er im Originaldokument angezeigt wird. Überarbeitungen werden dauerhaft übernommen, wenn eine überarbeitete Version eines Dokuments gespeichert wird. Nur diese Version gilt als überarbeitetes Dokument.",
+        "searchAndRedactTitle": "Suchen und überarbeiten",
+        "searchAndRedactText": "Die Ergebnisse von „Suchen und überarbeiten“ enthalten keine Inhalte, die in Bildern und Nicht-Text-Grafiken angezeigt werden. Überarbeitungen für Inhalte in Bildern sollten mithilfe der Symbolleiste zur manuellen Überarbeitung in der Anmerkungssymbolleiste erstellt werden. Die Option „Suchen und überarbeiten“ sollte nicht als gründliche Suchfunktion angesehen werden, mit der alle erwarteten Inhalte gefunden werden können.",
+        "visualVerificationTitle": "Visuelle Überprüfung",
+        "visualVerificationText": "Vor der Erstellung einer überarbeiteten Version des Dokuments wird dringend eine visuelle Überprüfung empfohlen, damit alle erwarteten Inhalte gefunden und zur Überarbeitung markiert werden."
+    },
+
+    "userPreferencesDialog": {
+        "title": "Benutzereinstellungen",
+        "resetButton": "Zurücksetzen",
+        "saveButton": "Speichern",
+        "cancelButton": "Abbrechen",
+        "toolbarConfigTab": "Konfigurationen der Symbolleiste",
+        "annPropertiesTab": "Anmerkungseigenschaften",
+        "customTextStampsTab": "Benutzerdefinierte Textstempel",
+        "notesTemplateTab": "Notizenvorlagen",
+        "generalTab": "Allgemeine Einstellungen",
+        "imageControl": "Bildsteuerelemente",
+        "annToolbar": "Anmerkungssymbolleiste",
+        "annHeader": "Anmerkungstyp",
+        "annPropFor": "Anmerkungseigenschaften für",
+        "stampsHeader": "Stempel",
+        "stampPropFor": "Stempeleigenschaften für",
+        "displayName": "Anzeigename:",
+        "userNameInput": "Undefinierter Benutzer",
+        "stampText": "Stempeltext:",
+        "fontColor": "Schriftfarbe:",
+        "fillColor": "Füllfarbe:",
+        "lineColor": "Linienfarbe:",
+        "moreColors": "Weitere Farben ...",
+        "custom": "Benutzerdefiniert:",
+        "lineSize": "Liniengröße:",
+        "font": "Schriftart:",
+        "fontSize": "Schriftgröße:",
+        "bold": "Fett",
+        "italic": "Kursiv",
+        "underline": "Unterstreichen",
+        "defaultFitTo": "Standardeinstellungen zum Anpassen",
+        "fitToWindow": "An Fenster anpassen",
+        "fitToHeight": "An Höhe anpassen",
+        "fitToWidth": "An Breite anpassen",
+        "zoomPercent": "Zoom in Prozent",
+        "addNewStamp": "Hinzufügen",
+        "removeStamp": "Entfernen",
+        "templatesHeader":"Vorlagen",
+        "addNewTemplate":"Hinzufügen",
+        "removeTemplate":"Entfernen",
+        "templatePropFor": "Vorlageneigenschaften für",
+        "templateDisplayName": "Vorlagenname:",
+        "templateText": "Vorlagentext:", 
+        "usernameTitle": "Einstellungen für Benutzernamen"
+    }
+}

@@ -1,0 +1,862 @@
+{
+    "windowTitle": "VirtualViewer HTML5",
+    "utilityToolbar": {
+        "saveDocument": {
+            "title": "Save Document",
+            "saveMenuOption": "Save",
+            "saveWithRedactionsMenuOption": "Save with Burned-in Redactions",
+            "saveWithRedactionsAnnotationsMenuOptions": "Save with Burned-in Redactions and Annotations"
+        },
+        "saveDocumentAs": {
+            "title": "Save Document As"
+        },
+        "uploadDocument": {
+            "title": "Upload Document"
+        },
+        "exportDocument": {
+            "title": "Export Document"
+        },
+        "sendDocument": {
+            "title": "Send Document"
+        },
+        "emailDocument": {
+            "title": "Email Document"
+        },
+        "printDocument": {
+            "title": "Print"
+        },
+        "separator": {
+            "title": ""
+        },
+        "miniSeparator": {
+            "title": ""
+        },
+        "zoomIn": {
+            "title": "Zoom In"
+        },
+        "zoomOut": {
+            "title": "Zoom Out"
+        },
+        "rubberbandZoom": {
+            "title": "Rubberband Zoom"
+        },
+        "magnifier": {
+            "title": "Magnifier"
+        },
+        "fitToWindow": {
+            "title": "Fit to Window"
+        },
+        "fitToHeight": {
+            "title": "Fit to Height"
+        },
+        "fitToWidth": {
+            "title": "Fit to Width"
+        },
+        "goToFirstPage": {
+            "title": "Go to First Page"
+        },
+        "goToPreviousPage": {
+            "title": "Go to Previous Page"
+        },
+        "jumpToPage": {
+            "title": "Jump To Page"
+        },
+        "goToNextPage": {
+            "title": "Go to Next Page"
+        },
+        "goToLastPage": {
+            "title": "Go to Last Page"
+        },
+        "rotateRight": {
+            "title": "Rotate Right"
+        },
+        "rotateLeft": {
+            "title": "Rotate Left"
+        },
+        "pictureControls": {
+            "title": "Picture Controls"
+        },
+        "crop": {
+            "title": "Crop"
+        },
+        "toggleImageInfo": {
+            "title": "Image Info"
+        },
+        "showAboutDialog": {
+            "title": "About"
+        },
+        "showUserPreferencesDialog": {
+            "title": "User Preferences"
+        },
+        "toggleThumbnailPanel": {
+            "title": "Toggle Thumbnails"
+        },
+        "fileGroup": "File",
+        "zoomGroup": "Zoom",
+        "pagesGroup": "Pages",
+        "infoGroup":  "Info and Settings",
+        "pageManipulationGroup": "Page Manipulation",
+        "toggleFullScreen": "Toggle Full Screen View"
+
+    },
+    "annToolbar": {
+        "stickyNote": {
+            "title": "Sticky Note"
+        },
+        "textEdit": {
+            "title": "Text Edit"
+        },
+        "imageRubberStamp": {
+            "title": "Image Rubber Stamp"
+        },
+        "highlightRectangle": {
+            "title": "Highlight Rectangle"
+        },
+        "redactionArea": {
+            "title": "Redaction Area"
+        },
+        "line": {
+            "title": "Line"
+        },
+        "arrow": {
+            "title": "Arrow"
+        },
+        "freehand": {
+            "title": "Freehand"
+        },
+        "filledRectangle": {
+            "title": "Filled Rectangle"
+        },
+        "filledEllipse": {
+            "title": "Filled Ellipse"
+        },
+        "filledPolygon": {
+            "title": "Filled Polygon"
+        },
+        "rectangle": {
+            "title": "Rectangle"
+        },
+        "ellipse": {
+            "title": "Ellipse"
+        },
+        "polygon": {
+            "title": "Polygon"
+        },
+        "layerManager": {
+            "title": "Layer Manager"
+        },
+        "createWatermark": {
+            "title": "Add Watermark"
+        },
+        "textAndStampsGroup": "Text and Stamps",
+        "markupGroup": "Markup",
+        "shapesGroup":  "Shapes"
+    },
+    "layerManager": {
+        "title": "Layer Manager",
+        "annLayersTitle": "Annotation Layers",
+        "imageLayersTitle": "Image Layers",
+        "activeLayer": "Active Layer",
+        "emptyLayerDialogMessage": "There are no layers to show.",
+        "numericLayerLabel": "Layer ",
+        "oneLayerPerAnnotation": "Layers will be created automatically when annotations are added.",
+        "addLayer": {
+            "value": "Add",
+            "title": "Create New Layer"
+        },
+        "deleteLayer": {
+            "value": "-",
+            "title": "Delete Layer"
+        },
+        "consolidateLayer": {
+            "value": "Consolidate",
+            "title": "Consolidate Layers"
+        },
+        "renameLayer": {
+            "value": "R",
+            "title": "Rename Layer"
+        },
+        "layerVisible": "This layer is visible",
+        "layerHidden": "This layer is hidden",
+        "allLayerVisibility": "Toggle visibility for all layers",
+
+        "cancelButton": "Cancel",
+        "okButton": "OK"
+    },
+    "documentNameFields":  {
+        "heading": "Document Name",
+        "documentName": "Document Name"
+    },
+    "pageRangeFields": {
+        "heading": "Pages",
+        "complexRange": "Complex Range",
+        "currentPage": "Current Page",
+        "allPages": "All Pages"
+    },
+    "formatFields":  {
+        "heading": "Format",
+        "pdf": "PDF",
+        "tiff": "TIFF",
+        "original": "Original"
+    },
+    "annotationFields":  {
+        "heading": "Annotations",
+        "includeAnnotations": "Include Annotations",
+        "text": "Text",
+        "nonText": "Non-Text"
+    },
+    "redactionFields":  {
+        "heading": "Redactions",
+        "includeRedactions": "Burn Redactions (Permanent)",
+        "includeRedactionTags": "Include Redaction Tags"
+    }, 
+    "documentNotesFields":  {
+        "heading": "Document Notes",    
+        "includeDocumentNotes":  "Include Document Notes" 
+    }, 
+    "watermarksFields":  {
+        "heading": "Watermarks",    
+        "includeWatermarks":  "Include Watermarks" 
+    }, 
+    "commonDialog": {
+        "closeButton": "Close",
+        "cancelButton":  "Cancel"
+    },
+    "tagAllRedactionsDialog": {
+        "title": "Tag All Redactions",
+        "tagsLabel": "Tag(s):",
+        "okButton": "OK",
+        "cancelButton": "Cancel", 
+        "errorMessage": "Error! Please select a tag."
+    },
+    "saveAsDialog": {
+        "title": "Save As",
+        "confirmButton": "Save As",
+        "savePreferences": "Save Preferences",
+        "saveConfirmed": "Saved!",
+        "errors": {
+            "noDocumentName": "Please enter a new document name.",
+            "invalidDocumentName": "Please enter a valid document name."
+        }
+    },
+    "overwriteDialog": {
+        "overwriteButton": "Save and Overwrite",
+        "saveAsButton": "Save to New Document",
+        "cancelButton": "Cancel",
+        "title": "",
+        "text": "The format of this document must be changed to PDF or TIFF to save these changes. Would you like to continue and overwrite the original document's format, or save the changes to a new document?"
+    },
+    "copyToNewDialog": {
+        "title": "Create New Document",
+        "confirmButton": "Create"
+    },
+    "uploadDocumentDialog": {
+        "title": "Upload Document",
+        "chooseFileButton": "Choose File",
+        "okButton": "OK",
+        "cancelButton": "Cancel",
+        "uploadDisabled": "Upload document has been disabled by the administrator."
+    },
+    "exportDialog": {
+        "title": "Export Document",
+        "confirmButton": "Export"
+    },
+    "emailDialog": {
+        "title": "Email Document",
+        "confirmButton": "Send",
+
+        "sendFieldCaption": "Send",
+        "fromFieldCaption": "From",
+        "toFieldCaption": "To",
+        "subjectFieldCaption": "Subject",
+        "subjectFieldDefaultContents": "VirtualViewer Document attached",
+        "bodyFieldDefaultContents": "Please see the attached document sent from VirtualViewer."
+    },
+    "printDialog": {
+        "title": "Print",
+        "confirmButton": "Print",
+
+        "destination": "Destination",
+        "local": "Print",
+        "pdf": "Save as PDF"
+    },
+    "cropDialog": {
+        "title": "Crop",
+        "message": "Entering crop preview mode. Cropping will remove all annotations from your page. In order to save the crop, either use export or save as to send it to a new document, or save to overwrite the file",
+        "cropButton": "OK",
+        "cancelButton": "Cancel"
+    },
+    "watermarksDialog": {
+        "title": "Watermarks",
+        "confirmButton":  "Apply Watermark", 
+        "cancelButton":  "Close", 
+
+        "existingWatermarks":  {
+            "heading": "Create or Edit", 
+            "createNewOption": "Create New" 
+        },
+
+        "editText": {
+            "heading": "Edit Text",
+            "textControlLabel":  "Insert:", 
+            "username":  "Edited By",
+            "serverTime":  "Date/Time Created",
+            "printTime":  "Date/Time Printed",
+            "pageNumber":  "Page Number", 
+            "totalPages": "Total Pages",
+            "documentName":  "Document Name"     
+        },
+        "appearance":  {
+            "heading": "Appearance", 
+            "horizontal":  "Horizontal",
+            "vertical":  "Vertical",
+            "diagonal":  "Diagonal",
+            "watermarkShortPlaceholder":  "ABC", 
+            "watermarkPlaceholder":  "Watermark", 
+            "fontSize":  "Font Size",
+            "stretchFont": "Stretch to Fit", 
+            "transparent":  "Transparent",
+            "opaque": "Opaque"  
+        },
+        "errors": {
+            "noText":  "Watermark must contain text"     
+        } 
+    },
+    "thumbContextMenu": {
+        "selectAll": "Select All",
+        "selectNone": "Select None",
+        "cut": "Cut",
+        "copy": "Copy",
+        "delete": "Delete",
+        "insertBefore": "Insert Before",
+        "insertAfter": "Insert After",
+        "newDocument": "Copy to New Document",
+        "cutNewDocument": "Cut to New Document",
+        "addBookmark": "Add Bookmark"
+    },
+    "thumbPageLabel": "Page ",
+    "textAnnContextMenu": {
+        "newTextAnn": "New Text Annotation"
+    },
+    "selectTextContextMenu": {
+        "performOcr": "Perform OCR",
+        "copy": "Copy",
+        "highlight": "Highlight",
+        "redact": "Redact",
+        "undoSplit": "Close Document Comparison"
+    },
+    "docThumbContextMenu": {
+        "splitImage": "Document Comparison"
+    },
+    "thumbnails": {
+        "pageTab": {"title": "Pages Tab"},
+        "documentTab": {"title": "Documents Tab"},
+        "searchTab": {"title": "Search Tab"},
+        "notesTab": {"title": "Notes Tab"},
+        "bookmarksTab": {"title": "Bookmarks Tab"},
+        "docCompareTab": {"title": "Document Compare Tab"},
+        "annInfoTab": {"title": "Annotation List Tab"}
+    },
+    "loadWaitDialog": "Please wait while your image is loaded",
+    "loadVideoDialog": "Please wait while your video is loaded",
+    "saveWaitDialog": "Please wait while your document is saved",
+    "printWaitDialog": "Please wait while your document is printed",
+    "emailWaitDialog": "Please wait while your document is emailed",
+    "deleteAnnDialog": {
+        "title": "Delete Annotation?",
+        "value": "Are you sure you wish to delete this annotation?",
+        "deleteButton": "Delete",
+        "cancelButton": "Cancel"
+    },
+    "clipboardDialog": {
+        "clipboardTitleStart": "Copy to Clipboard",
+        "okButton": "OK"
+    },
+    "bookmarkDialog": {
+        "title": "Create New Bookmark",
+        "editTitle": "Edit Bookmark",
+        "bookmarkNote": "Note",
+        "okButton": "OK",
+        "cancelButton": "Cancel",
+        "errors": {
+            "noPage": "Please pass a page number to edit a bookmark",
+            "virtualDocument": "Bookmarks are not supported on virtual documents",
+            "noBookmarks": "No bookmark exists for the provided page"
+        }
+    },
+    "bookmarks": {
+        "deleteButton": "Delete Bookmark",
+        "bookmarkDefault": "Bookmark"
+    },
+    "passwordProtectedFileDialog": {
+        "title": "Password Protected File",
+        "downloadButton": "Download",
+        "cancelButton": "Cancel",
+        "error": "This file is encrypted or password-protected"
+    },
+    "exportUnsupportedFileDialog": {
+        "title": "Unsupported File Format",
+        "downloadButton": "Download",
+        "cancelButton": "Cancel",
+        "error": "This format cannot be viewed"
+    },
+    "splitNotAllowedDialog": {
+        "title": "Document Comparison Not Allowed",
+        "error": "Please open a document before entering compare document mode.",
+        "OkButton": "OK"
+    },
+    "splitVideoError": "Document comparison is unsupported for video files.",
+    "closeSplitButton": {
+        "title": "Close document comparison",
+        "buttonText": "Close"
+    },
+    "addLayerDialog": {
+        "layerName": "Layer Name"
+    },
+    "deleteLayerDialog": {
+        "value": "Are you sure you wish to delete this layer?"
+    },
+    "renameLayerDialog": {
+        "layerName": "Layer Name"
+    },
+    "aboutDialog": {
+        "productName": "VirtualViewer HTML5",
+        "versionPrefix": "v",
+        "okButton": "OK",
+        "helpButton": "Help",
+        "text": "&reg;1996-2019 All Rights Reserved.  (licensing information). VirtualViewer and the VirtualViewer logo are trademarks of the Snowbound Software Corporation. All Rights Reserved. Some of the trademarks used under license from partner companies."
+    },
+    "notes": {
+        "addNote": "Add Note",
+        "deleteNote": "Delete Note",
+        "selectTemplate": "Select Template",
+        "created": "Created: ",
+        "edited": "Edited: ",
+        "applyButton": "Apply",
+        "cancelButton": "Cancel"
+
+    },
+    "annPopUp": {
+        "editText": {
+            "title": "Edit Text",
+            "value": "Edit Text",
+            "save": "Save",
+            "cancel": "Cancel"
+        },
+        "fontColorGroupLabel": {
+            "value": "Font Color:"
+        },
+        "lineColorGroupLabel": {
+            "value": "Line Color:"
+        },
+        "fillColorGroupLabel": {
+            "value": "Fill Color:"
+        },
+        "borderColorGroupLabel": {
+            "value": "Border Color:"
+        },
+        "colorGrid": {
+            "more": "More colors...",
+            "custom": "Custom:"
+        },
+        "lineSizeGroupLabel": {
+            "value": "Line Size:"
+        },
+        "borderSizeGroupLabel": {
+            "value": "Border Size:"
+        },
+        "fontFaceLabel": {
+            "value": "Font:"
+        },
+        "fontSizeLabel": {
+            "value": "Font Size:"
+        },
+        "bold": "Bold",
+        "italic": "Italic",
+        "tag": "Tag(s):",
+        "addAnnNote": "Add Annotation Note",
+        "showAnnNotes": {
+            "title": "Annotation Notes",
+            "value": "Notes"
+        },
+        "deleteAnn": {
+            "title": "Delete",
+            "value": "Delete"
+        },
+        "annCreateText": "Created by: ",
+        "annDateText": "On: ",
+        "annUnknownUser": "Unknown User",
+        "annRevisions": {
+          "viewRevisions": { "title": "Show Detailed Revision History" },
+          "modifyUser": "Modified by: ",
+          "modifyDate":  "On: "
+        }
+    },
+    "annotationTag": {
+        "deleteButton": "Remove Tag",
+        "addButton": "Add Tag"
+    },
+    "imageInfo": {
+        "dialogTitle": "Document & Page Properties",
+        "documentInfoHeader": "Document Info",
+        "pageInfoHeader": "Page Info",
+        "documentId": "Document ID",
+        "documentDisplayName": "Document Name",
+        "documentByteSize": "File Size (Bytes)",
+        "pageCount": "Page Count",
+        "documentFormat": "File Format",
+        "compressionType": "Compression Type",
+        "imageSizePixels": "Size in Pixels",
+        "imageSizeInches": "Image Size",
+        "dpi": "DPI",
+        "bitDepth": "Bit Depth",
+        "pageNumber": "Page Number",
+        "tiffTag315": "Copyright"
+    },
+    "search": {
+        "allowOCR": {
+            "title": "Allow VirtualViewer to perform OCR to search non-text documents",
+            "value": "Enable OCR for search"
+        },
+        "startSearch": {
+            "title": "Go"
+        },
+        "docSearch": {
+            "title": "Search Document"
+        },
+        "annSearch": {
+            "title": "Search Annotations"
+        },
+        "previousMatch": {
+            "title": "Previous Match"
+        },
+        "nextMatch": {
+            "title": "Next Match"
+        },
+        "redactAllMatches": {
+            "title": "Redact All Matches"
+        },
+        "redactCurrentMatch": {
+            "title": "Redact Current Match"
+        },
+        "tagAllRedactions": {
+            "title": "Tag All Redactions"
+        },
+        "basicSearchMode": {
+            "title": "Basic Search"
+        },
+        "patterns": {
+            "ssn": "Social Security Numbers",
+            "telephone": "Telephone Numbers",
+            "cc": "Credit Card Numbers",
+            "email": "Email Addresses"
+        },
+        "noResults": "This search found no results."
+    },
+    "permanentChangeDialog": {
+        "title": "Permanent Change",
+        "confirmMessageLine1": "This action will permanently change your original document.",
+        "confirmMessageLine2": "Are you sure you want to continue?"
+    },
+    "ocrDialog": {
+        "title": "OCR a Non-Text Document",
+        "confirmMessageLine1": "This is not a text document. VirtualViewer will have to perform optical character recognition to try to retrieve text from this document. This may not be effective on all documents or for all text within a document.",
+        "confirmMessageLine2": "Do you wish to continue?",
+        "confirmButton": "Perform OCR",
+        "waitMessage": "OCR in progress..."
+    },
+    "ocrDialogForVirtualDocumentSearch": {
+        "title": "Search Virtual Document with OCR",
+        "confirmMessageLine1": "This is a Virtual Document. VirtualViewer may have to perform optical character recognition to try to retrieve text from parts of this document. This may not be effective on all documents or for all text within a document.",
+        "confirmMessageLine2": "Do you wish to allow VirtualViewer to use OCR while searching this document, or to skip non-text documents?",
+        "confirmButton": "Allow OCR",
+        "refuseButton": "Search without OCR"
+    },
+    "annotationNavigation": {
+        "showAnnotationNaviPanel": {
+            "title": "Toggle Annotation Navigation"
+        },
+        "goToPrev": {
+            "title": "Previous"
+        },
+        "goToNext": {
+            "title": "Next"
+        },
+        "showThumbsWithAnnotationsOn": {
+            "title": "Turn Filter On"
+        },
+        "showThumbsWithAnnotationsOff": {
+            "title": "Turn Filter Off"
+        }
+    },
+    "pictureControls": {
+        "title": "Picture Controls",
+        "brightnessIcon": {
+            "title": "Brightness (Icon)"
+        },
+        "brightnessSlider": {
+            "title": "Brightness (Slider)"
+        },
+        "brightnessValue": {
+            "title": "Brightness (Value)"
+        },
+        "contrastIcon": {
+            "title": "Contrast (Icon)"
+        },
+        "contrastSlider": {
+            "title": "Contrast (Slider)"
+        },
+        "contrastValue": {
+            "title": "Contrast (Value)"
+        },
+        "gammaIcon": {
+            "title": "Gamma (Icon)"
+        },
+        "gammaSlider": {
+            "title": "Gamma (Slider)"
+        },
+        "gammaValue": {
+            "title": "Gamma (Value)"
+        },
+        "okButton": "OK",
+        "cancelButton": "Cancel"
+    },
+    "emptyEmailFields": {
+        "dialogTitle": "Missing Information",
+        "okButton": "OK",
+        "missingFrom": "The \"From\" Field needs to be filled out.",
+        "missingTo": "The \"To\" Field needs to be filled out."
+    },
+    "confirmChangesDialog": {
+        "title": "Confirm Changes",
+        "confirmButton": "Save",
+        "refuseButton": "Don't Save",
+        "cancelButton": "Cancel",
+        "message": "Would you like to save changes to: ",
+        "overwrite": "Saving this document will convert it to a TIF or a PDF."
+    },
+    "browserClose": {
+        "message": "You have unsaved changes in this session."
+    },
+    "disableToolbarDialog": {
+        "okButton": "OK"
+    },
+    "errorDialog": {
+        "title": "Error",
+        "okButton": "OK"
+    },
+    "documentCompare": {
+        "toggleDiffButton": { "title": "Show/Hide Highlighting" },
+        "lockScrolling": { "title": "Lock/Unlock Scrolling" },
+        "refreshDiff": { "title": "Refresh Document Compare" },
+        "loadMore": "Load More",
+        "changeTypes": {
+             "added": "Added",
+             "removed": "Removed",
+             "equal": "Not Changed"
+              },
+        "noChangesOnPage": "No changes to display",
+        "documentCompare.cannotCompare": "These documents cannot be compared. One or more of them contains no text.",
+        "documentCompare.cannotCompareUntilSave": "Document compare will resume when cropped or reordered documents have been saved."
+    },
+    "errors": {
+        "masterLayerExists": "Please delete your current Master Layer to create another.",
+        "deleteLayerPermission": "You do not have permission to delete this layer.",
+        "renameLayerPermission": "You do not have permission to rename this layer.",
+        "createAnnOnLayerPermission": "You do not have permission to create annotations on this layer.",
+        "editAnnOnLayerPermission": "You do not have permission to edit annotations on this layer.",
+        "invalidLayerName": "Invalid layer name. Please choose a new layer name.",
+        "layerNameAlreadyExists": "A layer with that name already exists.",
+        "tabTooManyOpen": "Too many open tabs.",
+        "tabIndexOutOfBounds": "Tab index out of bounds.",
+        "searchNotSearchable": "Document is not searchable.",
+        "virtualDocumentNotes": "Notes are not yet supported for Virtual Documents",
+        "virtualDocumentBookmark": "Bookmarks are not yet supported for Virtual Documents.",
+        "virtualDocumentSaving": "You can't save to original on Virtual Documents. Use Export or Save As.",
+        "virtualDocumentFeature": "The feature you are trying to use is not yet supported in Virtual Documents.",
+        "virtualDocumentSearch": "Search is not yet supported for Virtual Documents.",
+        "invalidColorString": "Invalid color string.",
+        "imageFailedToLoad": "Image failed to load",
+        "onePageLimit": "Document must contain at least 1 page",
+        "annotationsDisabled": "Annotations are disabled",
+        "splitScreenDisabled" : "Document Comparison has been disabled by the administrator.",
+        "noText": "No selectable text on this page",
+        "redactionsDisabled": "Redactions are disabled",
+        "failureLoadingUserPreferences": "Problem loading User Preferences. Setting User Preferences back to default values.",
+        "noLayersExist": "No Layers Exist.",
+        "bookmarkExists": "Bookmark already exists!",
+        "pageHasNoBookmark": "Page has no bookmark to delete.",
+        "clipboardEmpty": "There are no pages on the clipboard.",
+        "cropBlock": "Cannot Annotate on Crop Preview. Save the crop then Annotate.",
+        "cropDisabled": "Crop has been disabled by the administrator.",
+        "uploadExistingDocument": "A document by this name already exists. Please rename the file and try again",
+        "complexRangeEmpty": "Blank complex page range",
+        "complexRangeInvalidCharacter": "Invalid character in complex page range:",
+        "complexRangePageOutOfBounds": "One or more of the pages in the selected range are out of bounds",
+        "complexRangeUnsupportedSyntax": "Incorrect syntax for the pages, make sure the lower number is on the left side of the dash.",
+        "documentTooTallForIE":  "This document has dimensions that are too large for Internet Explorer to display. Please switch browsers or speak to an administrator.",
+        "printDocumentMustBeOpened": "The document you asked to print is not open in VirtualViewer.",
+        "printTooManyPagesForIE": "Due to limitations of Internet Explorer, printing of more than %n pages at a time is unsupported.  Please split your print task up into sets of %n or fewer pages.",
+        "printTooManyPagesForFirefox": "Due to limitations of Firefox, printing of more than %n pages at a time is unsupported.  Please split your print task up into sets of %n or fewer pages.",
+        "documentNotFound": "Document Not Found: ",
+        "saveDocumentRequestFailed": "Unable to contact server to save document.",
+        "noNextRedaction": "There is no next redaction.",
+        "noPrevRedaction": "There is no previous redaction.",
+        "imageLoading": {
+            "IEImageLoadError": "Internet Explorer has failed to load the requested image due to memory limitations."
+        },
+        "malformedJsonInMessage": "VirtualViewer received an invalid command.",
+        "printUndefinedError": "An error has occurred while printing."
+    },
+
+    "hotkeyHints": {
+        "title": "Keyboard Shortcuts",
+        "zoomIn": "Zoom In",
+        "zoomOut": "Zoom Out",
+        "flipX": "Flip Horizontal",
+        "flipY": "Flip VerticaL",
+        "exportDocument": "Export Document",
+        "printDocument": "Print Document",
+        "invert": "Invert Color",
+        "lastPage": "Last Page",
+        "firstPage": "First Page",
+        "previousPage": "Previous Page",
+        "nextPage": "Next Page",
+        "rotateCounter": "Rotate Counter-Clockwise",
+        "rotateClock": "Rotate Clockwise",
+        "showAboutDialog": "Show About Dialog",
+        "showKeyboardHints": "Show Keyboard Hints",
+        "toggleLayerManager": "Toggle Layer Manager",
+        "toggleThumbnailPanel": "Toggle Thumbnail Panel",
+        "fitHeight": "Fit to Height",
+        "fitWidth": "Fit to Width",
+        "fitWindow": "Fit to Window",
+        "scrollUpBy33Percent": "Scroll Up 33%",
+        "scrollDownBy33Percent": "Scroll Down 33%",
+        "panLeft": "Pan Left",
+        "panRight": "Pan Right",
+        "panUp": "Pan Up",
+        "panDown": "Pan Down",
+        "thumbPageDown": "Thumbnail Page Down",
+        "thumbPageUp": "ThumbnaiL Page Up",
+        "toggleHGuide": "Toggle Horizontal Guide",
+        "toggleVGuide": "Toggle Vertical Guide",
+        "toggleCrosshairGuide": "Toggle Crosshair Guides",
+        "copyText": "Copy Selected Text",
+        "searchText": "Search Text",
+        "enterSelectTextMode": "Enter Text Selection Mode",
+        "enterGuideMode": "Enter Guide Mode",
+        "toggleTextSelectionMode": "Toggle Column Text Selection",
+        "toggleImageInfo": "Toggle Image Info Dialog",
+        "enterPanMode": "Enter Pan Mode",
+        "collapseStickyNotes": "Collapse Sticky Notes",
+        "expandStickyNotes": "Expand Sticky Notes",
+        "showUserPreferences": "Show User Preferences"
+    },
+
+    "pageManipulations": {
+        "disabled": "Page Manipulations have been disabled by the administrator in the configuration.",
+        "redactions": "Page Manipulations are currently not supported in documents containing redactions.",
+        "restrictedFormat": "Page Manipulations are disabled for this document format.",
+        "searchInProgress": "Page Manipulations are disabled while a document search is in progress."
+    },
+
+    "redactionWarningDialog": {
+        "okButton": "OK",
+        "title": "Redaction Functionality Warning: Read Carefully",
+        "redactedVersionTitle": "Creating a Redacted Version",
+        "redactedVersionText": "When marking an area for redaction on a document, the underlying text will remain visible to all users when viewed within the original document. Redactions are permanently applied when saving a redacted version of a document, and only that version is considered a redacted document.",
+        "searchAndRedactTitle": "Search and Redact",
+        "searchAndRedactText": "Search and redact results do not account for content which may appear in images as well as in non-text line art. Redactions for content in images should be created using the manual redaction toolbar option found in the Annotation Toolbar. Search and redact results should not be considered a fully thorough mechanism to ensure all expected content has been discovered.",
+        "visualVerificationTitle": "Visual Verification",
+        "visualVerificationText": "Before creating a redacted version of the document, visual confirmation is strongly recommended to ensure all expected content has been identified and marked for redaction."
+    },
+
+    "userPreferencesDialog": {
+        "title": "User Preferences",
+        "resetButton": "Reset",
+        "saveButton": "Save",
+        "cancelButton": "Cancel",
+        "toolbarConfigTab": "Toolbar Configurations",
+        "annPropertiesTab": "Annotation Properties",
+        "customTextStampsTab": "Custom Text Stamps",
+        "notesTemplateTab": "Notes Templates",
+        "generalTab": "General Preferences",
+        "imageControl": "Image Controls",
+        "annToolbar": "Annotation Toolbar",
+        "annHeader": "Annotation Type",
+        "annPropFor": "Annotation Properties For",
+        "stampsHeader": "Stamps",
+        "stampPropFor": "Stamp Properties For",
+        "username": "Username:",
+        "displayName":"Display Name:",
+        "userNameInput": "Undefined User",
+        "stampText": "Stamp Text:",
+        "fontColor": "Font Color:",
+        "fillColor": "Fill Color:",
+        "lineColor": "Line Color:",
+        "moreColors": "More Colors...",
+        "custom": "Custom:",
+        "lineSize": "Line Size:",
+        "font": "Font:",
+        "fontSize": "Font Size:",
+        "bold": "Bold",
+        "italic": "Italic",
+        "underline": "Underline",
+        "defaultFitTo": "Default Fit to Preferences",
+        "fitToWindow": "Fit to Window",
+        "fitToHeight": "Fit to Height",
+        "fitToWidth": "Fit to Width",
+        "zoomPercent": "Zoom Percent",
+        "addNewStamp": "Add",
+        "removeStamp": "Remove",
+        "templatesHeader":"Templates",
+        "addNewTemplate":"Add",
+        "removeTemplate":"Remove",
+        "templatePropFor": "Template Properties for",
+        "templateDisplayName": "Template Name:",
+        "templateText": "Template Text:", 
+        "usernameTitle": "Username Settings",
+        "defaultTab":"Default Tab Preferences",
+        "pageTab": "Pages Tab",
+        "documentTab": "Documents Tab",
+        "searchTab": "Search Tab",
+        "bookmarkTab": "Bookmarks Tab",
+        "noteTab": "Document Notes Tab",
+        "annotationTab": "Annotation List Tab",
+        "generalVideo": "General Video Preferences",
+        "videoAutoplay":"Video Autoplay",
+        "videoMute": "Mute",
+        "videoControls":"Video Controls",
+        "videoScaling": "Limit Video Scaling"
+    },
+    "annotationInfoList": {
+        "labels": {
+            "userCreatedBy": "Created by: ",
+            "dateCreated": "On: ",
+            "userModifiedBy": "Last changed by: ",
+            "dateModified": "On: ",
+            "page": "Page: "
+        },
+        "annotationTypes": {
+            "Sticky Note": "Sticky Note",
+            "Rubber Stamp": "Text Annotation",
+            "Bitmap": "Image Rubber Stamp",
+            "HighlightRectangle": "Highlight",
+            "RedactionRect": "Redaction",
+            "Line": "Line",
+            "Arrow": "Arrow",
+            "Freehand": "Freehand",
+            "FilledRectangle": "Filled Rectangle",
+            "FilledEllipse": "Filled Ellipse",
+            "FilledPolygon": "Filled Polygon",
+            "Rectangle": "Rectangle",
+            "Ellipse": "Ellipse",
+            "Polygon": "Polygon",
+            "general": "Annotation"
+        },
+        "filterByUser": "Filter by User",
+        "userLabel": "Users",
+        "allUsersOption": "All"
+    }
+}

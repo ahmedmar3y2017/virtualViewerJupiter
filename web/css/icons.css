@@ -1,0 +1,645 @@
+@font-face {
+  font-family: 'virtualviewer-icons';
+  src:  url('../resources/fonts/virtualviewer-icons.eot?he03dq');
+  src:  url('../resources/fonts/virtualviewer-icons.eot?he03dq#iefix') format('embedded-opentype'),
+    url('../resources/fonts/virtualviewer-icons.ttf?he03dq') format('truetype'),
+    url('../resources/fonts/virtualviewer-icons.woff?he03dq') format('woff'),
+    url('../resources/fonts/virtualviewer-icons.svg?he03dq#virtualviewer-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'virtualviewer-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 
+    Dynamically disables an icon glyph - used if the client specifies an icon
+    for toolbar buttons.
+*/
+.disable-icon.icon:before { 
+    content: none !important;
+}
+
+/* Handle special icon sizing for Bootstrap button-group buttons that only hold icons */
+.btn-group .btn.icon {
+    padding: 5.5px 12px;
+    font-size: 21px;
+    line-height: 1;
+}
+
+.btn-group-sm.btn-group .btn.icon, .btn-group .btn.btn-sm.icon {
+    padding: 5px 10px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+/** Toolbar buttons */
+
+
+.icon.toolbar-icon { 
+    font-size:24px;
+    color:#555; /* note: go to page icons are individually sized*/
+}
+
+.icon.toolbar-icon:disabled, *:disabled .icon.toolbar-icon, 
+.icon.toolbar-icon.disabled, .disabled .icon.toolbar-icon,
+*[aria-disabled=true] .icon.toolbar-icon {
+    color:#555; /* Prevent :focus color change, as unlike :hover :focus is not prevented by pointer-events */
+    pointer-events:none;
+}
+
+.toolbar-icon:hover, a:focus > .toolbar-icon {
+    color: #0F7AB7;
+}
+
+/* Unfortunately we can't use :active as most browsers
+   don't follow spec and activate it on any mouse button, not just the primary.
+   .toolbar-icon:active
+*/
+.mouseDown .toolbar-icon {
+    padding-top:2px;
+    padding-left:2px;
+    font-size: 22px;
+}
+
+.vvAboutIcon.icon:before {
+  content: "\e900";
+}
+.vvAnnArrowIcon.icon:before {
+  content: "\e901";
+}
+.vvAnnEllipseIcon.icon:before {
+  content: "\e902";
+}
+.vvAnnFilledEllipseIcon.icon:before {
+  content: "\e903";
+}
+.vvAnnFilledPolygonIcon.icon:before {
+  content: "\e904";
+}
+.vvAnnFilledRectIcon.icon:before {
+  content: "\e905";
+}
+.vvAnnFreehandIcon.icon:before {
+  content: "\e906";
+}
+.vvAnnHighlightRectIcon.icon:before {
+  content: "\e907";
+}
+.vvAnnLineIcon.icon:before {
+  content: "\e908";
+}
+.vvAnnPolygonIcon.icon:before {
+  content: "\e90b";
+}
+.vvAnnRectIcon.icon:before {
+  content: "\e90c";
+}
+.vvRedactionRectIcon.icon:before {
+  content: "\e90d";
+}
+.vvAnnImageRubberStampIcon.icon:before {
+  content: "\e90e";
+}
+.vvAnnStickyNoteIcon.icon:before {
+  content: "\e90f";
+}
+.vvAnnTextIcon.icon:before {
+  content: "\e910";
+}
+.vvCropIcon.icon:before {
+  content: "\e913";
+}
+.vvEmailDocumentIcon.icon:before {
+  content: "\e91a";
+}
+.vvExportDocumentIcon.icon:before {
+  content: "\e91b";
+}
+.vvFitHeightIcon.icon:before {
+  content: "\e91d";
+}
+.vvFitWidthIcon.icon:before {
+  content: "\e91e";
+}
+.vvFitWindowIcon.icon:before {
+  content: "\e91f";
+}
+.vvGoToFirstPageIcon.icon,
+.vvGoToLastPageIcon.icon { 
+    font-size:20px;
+    padding: 2px;
+}
+.vvGoToFirstPageIcon.icon:active,
+.vvGoToLastPageIcon.icon:active { 
+    font-size:18px;
+    padding: 2px;
+    padding-top:4px;
+    padding-left:4px;
+}
+.vvGoToNextPageIcon.icon,
+.vvGoToPreviousPageIcon.icon { 
+    font-size:16px; /* Want page arrows to look a little smaller*/
+    padding:4px;
+}
+.vvGoToNextPageIcon.icon:active,
+.vvGoToPreviousPageIcon.icon:active { 
+    font-size:14px; /* Want page arrows to look a little smaller*/
+    padding:4px;
+    padding-top:6px;
+    padding-left:6px;
+}
+.vvGoToFirstPageIcon.icon:before {
+  content: "\e920";
+}
+.vvGoToLastPageIcon.icon:before {
+  content: "\e921";
+}
+.vvGoToNextPageIcon.icon:before {
+    content: "\e92c";
+}
+.vvGoToPreviousPageIcon.icon:before {
+    content: "\e93e";
+}
+.vvImageInfoIcon.icon:before {
+  content: "\e923";
+}
+.vvInvertImageIcon.icon:before {
+  content: "\e924";
+}
+.vvLayerManagerIcon.icon:before {
+  content: "\e925";
+}
+.vvMagnifyIcon.icon:before {
+  content: "\e928";
+}
+.vvToggleFullScreenIcon.icon:before {
+  content: "\e929";
+}
+.vvToggleFullScreenIcon.icon.minimize:before {
+  content: "\e92a";
+}
+.vvPictureControlsIcon.icon:before {
+    content: "\e917";
+}
+.vvPrintIcon.icon:before {
+  content: "\e93f";
+}
+.vvRotatePageLeftIcon.icon:before {
+  content: "\e942";
+}
+.vvRotatePageRightIcon.icon:before {
+  content: "\e943";
+}
+.vvRubberbandZoomIcon.icon:before {
+  content: "\e944";
+}
+.vvSaveDocumentIcon.icon:before {
+  content: "\e945";
+}
+.vvSaveDocumentAsIcon.icon:before {
+  content: "\e946";
+}
+.vvSendDocumentIcon.icon:before {
+    content: "\e930";
+}
+.vvFileUploadIcon.icon:before {
+  content: "\e961";
+}
+.vvUserPreferencesIcon.icon:before {
+  content: "\e962";
+}
+.vvWatermarksIcon.icon:before {
+  content: "\e964";
+}
+.vvZoomInIcon.icon:before {
+  content: "\e965";
+}
+.vvZoomOutIcon.icon:before {
+  content: "\e966";
+}
+
+/* Toolbar group icons */
+
+.vvFileGroupIcon.icon:before {
+    content: "\e91c";
+}
+
+.vvZoomGroupIcon.icon:before { 
+    content: "\e928"; /* Duplicate of vvMagnify */
+}
+
+.vvPagesGroupIcon.icon:before { 
+    content: "\e921"; /* Duplicate of vvGoToLastPage */
+}
+
+.vvPageManipGroupIcon.icon:before { 
+    content: "\e917"; /* Duplicate of vvPictureControls */
+}
+
+.vvInfoGroupIcon.icon:before {
+    content: "\e922";
+}
+
+.vvTextAndStampsIcon.icon:before {
+    content: "\e910"; /* Duplicate of vvAnnText */
+}
+
+.vvMarkupIcon.icon:before {
+    content: "\e90d"; /* Duplicate of vvRedactionRect */
+}
+
+.vvShapesIcon.icon:before {
+    content: "\e904"; /* Duplicate of vvAnnFilledPolygon */
+}
+
+/* Tab icons */
+
+.icon.tab-icon { 
+    color: #fff;
+    font-size: 18px;
+    padding-left:2px;
+    padding-top:2px;
+}
+
+.thumbTabs.active .icon.tab-icon { 
+    color:#555;
+}
+
+.selectedAnn .icon {
+    color: #257ab6;
+}
+
+.vvAnnotationsListTabIcon.icon:before {
+    content: "\e90a";
+}
+.vvBookmarksTabIcon.icon:before {
+    content: "\e911";
+}
+.vvDocCompareIcon.icon:before {
+    content: "\e916";
+}
+.vvDocumentsTabIcon.icon:before {
+    content: "\e919";
+}
+.vvNotesTabIcon.icon:before {
+    content: "\e92d";
+}
+.vvNotesTabIcon.icon.docNotesExist:before {
+    content: "\e918";
+    color: #ed1c24;
+}
+.vvPagesTabIcon.icon:before {
+    content: "\e92e";
+}
+.vvSearchTabIcon.icon:before {
+    content: "\e94f";
+}
+
+/* Annotation layer manager icons*/
+
+.vvAnnEditLayerTextIcon.icon:before {
+    content: "\e941";
+    color: #666;
+    font-size: 10px;
+}
+
+.vvVisible.icon:before {
+    content: "\e960"; /* Same as the diff tab visible icon */
+}
+
+.vvAllLayersInvisible .vvVisible.icon:before,
+.vvAllLayerVisibilityNotSet .vvLayerInvisible .vvVisible.icon:before {
+    content: "\e95f"; /* Same as the diff tab NOT visible icon */
+}
+ 
+.vvAnnDeleteLayerButton.icon:before {
+    content: "\e915";
+}
+
+
+/* Annotation popup buttons */
+
+#vvAnnCopyButton.icon:before {
+    content: "\e912";
+}
+#vvAnnCutButton.icon:before {
+    content: "\e914";
+}
+#vvAnnDeleteButton.icon:before {
+    content: "\e915";
+}
+
+/* This next one's a little weird because it's a span inside the button to allow rotation*/
+#vvAnnViewRevisions .vvCollapse.icon:before { 
+    content: "\e92b";
+    font-size: 16px;
+    display:inline-block;
+}
+
+form#vvAnnPopUpForm.vvDisplayingRevisionHistory #vvAnnViewRevisions .vvCollapse.icon:before {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* Annotation filter & indicator icons */
+
+.indicator-icon.icon {
+    color: #555;
+    font-size: 16px;
+    
+    width:24px;
+    padding-left:3px;
+    padding-right:3px;
+    margin-right:2px;
+}
+
+.vvAnnotationIndicatorCheckmark.icon:before { 
+    content: "\ea52";
+    color:red;
+    font-size: 18px;
+}
+/*
+    These next two are for the toggle that makes the filter UI appear. Its parent gains the .vvAnnotationNavigation class 
+    when the UI is active.
+*/
+#vvAnnotationIndicatorToggle.icon:before {
+    content: "\ea52";
+    color: #555;
+    font-size: 24px;
+}
+
+#vvPageThumbs.vvAnnotationNavigation #vvAnnotationIndicatorToggle.icon:before {
+    color: #0F7AB7;
+}
+
+/*
+    These next two are for the filter button. The filter button gains the ann-filter-on class when filtering.
+*/
+#vvAnnotationThumbsButton.icon:before {
+    content: "\ea5b";
+}
+
+#vvAnnotationThumbsButton.icon.ann-filter-on:before {
+    color: #0F7AB7;
+}
+
+
+/* Diff tab icons */
+
+.icon.btn.btn-default {
+    color: #808285;
+}
+
+.vvDiffUnlockedIcon.icon:before {
+    content: "\e926";
+}
+.vvDiffLockedIcon.icon:before {
+    content: "\e927";
+}
+
+#vvToggleDiffHighlightingBtn.icon.vvDiffHighlightVisible:before { 
+    content: "\e960"; 
+}
+
+#vvToggleDiffHighlightingBtn.icon.vvDiffHighlightNotVisible:before { 
+    content: "\e95f";
+}
+
+#vvLockScrollingBtn.icon.vvDiffScrollingUnlocked:before {
+    content: "\e926";
+}
+
+#vvLockScrollingBtn.icon.vvDiffScrollingLocked:before {
+    content: "\e927";
+}
+
+#vvRefreshDiffBtn.icon:before {
+    content: "\e940";
+}
+
+/* Search tab icons */
+
+.vvSearchButton.icon.btn.btn-sm,
+.input-group-sm .vvSearchButton.icon.btn,
+.btn-group-sm .vvSearchButton.icon.btn { 
+    /* 
+        The top row of search icons are btn-sm to match the textbox but
+        expected to be the same size as the below larger buttons...
+    */
+    font-size:22px; 
+    line-height:1;
+}
+
+.vvSearchButton.icon.btn { 
+    font-size:22px;
+}
+
+.vvAnnSearchStart.icon:before {
+    content: "\e947";
+}
+.vvDocSearchStart.icon:before {
+    content: "\e94a";
+}
+#vvSearchProgressCancel.icon:before {
+    content: "\e92f";
+    font-size: 14px;
+}
+.vvSearchRedactAll.icon:before {
+    content: "\e94d";
+}
+.vvSearchRedactCurrent.icon:before {
+    content: "\e94e";
+}
+.vvTagAllRedactions.icon:before {
+    content: "\e95d";
+}
+
+/* Picture controls dialog icons */
+
+.icon.picture-controls-icon { 
+    font-size:14px;
+    vertical-align:middle;
+}
+
+.vvBrightnessIcon.icon:before {
+    content: "\e93b";
+}
+.vvContrastIcon.icon:before {
+    content: "\e93c";
+}
+.vvGammaIcon.icon:before {
+    content: "\e93d";
+}
+
+/* Miscellaneous icons*/
+
+.text_clear_symbol:before { 
+    content: "\e92f";
+    color: #808285;
+    font-size:14px;
+}
+
+#collapseTabButton {
+    color: #fff;
+}
+
+#collapseTabButton:before {
+    content: "\e92b";
+}
+
+#collapseTabButton.icon.active,
+#collapseTabButton.icon[aria-expanded="true"],
+#collapseTabButton.icon[aria-expanded="true"]:hover,
+#collapseTabButton.icon[aria-expanded="true"]:focus  {
+    color:#555;
+}
+
+#vvThumbToggleButton.icon:before {
+    content: "\e95e";
+}
+
+.vvLittleNextArrow.icon:before {
+    content: "\e94b";
+}
+
+.vvLittlePreviousArrow.icon:before {
+    content: "\e94c";
+}
+
+.vvWarning.icon:before {
+    content: "\e963";
+    color: #ed1f24;
+    font-size:30px;
+}
+
+
+/* 
+    Not actually used yet...this icon is the minimize symbol for sticky notes but is drawn with the canvas
+    using the original SVG. It's probably possible to draw the font icon instead but would take some investigation. 
+*/
+.vvAnnMinimizeIcon.icon:before {
+    content: "\e909";
+}
+
+#vvSnowboundLogo { 
+    font-size:24px;
+}
+
+#vvSnowboundLogo > .path1:before {
+    content: "\e953";
+    color: rgb(15, 122, 183);
+}
+#vvSnowboundLogo > .path2:before {
+    content: "\e954";
+    margin-left: -1em;
+    color: rgb(155, 194, 227);
+}
+#vvSnowboundLogo > .path3:before {
+    content: "\e955";
+    margin-left: -1em;
+    color: rgb(155, 194, 227);
+}
+#vvSnowboundLogo > .path4:before {
+    content: "\e956";
+    margin-left: -1em;
+    color: rgb(155, 194, 227);
+}
+#vvSnowboundLogo > .path5:before {
+    content: "\e957";
+    margin-left: -1em;
+    color: rgb(155, 194, 227);
+}
+#vvSnowboundLogo > .path6:before {
+    content: "\e958";
+    margin-left: -1em;
+    color: rgb(155, 194, 227);
+}
+#vvSnowboundLogo > .path7:before {
+    content: "\e959";
+    margin-left: -1em;
+    color: rgb(155, 194, 227);
+}
+#vvSnowboundLogo > .path8:before {
+    content: "\e95a";
+    margin-left: -1em;
+    color: rgb(155, 194, 227);
+}
+#vvSnowboundLogo > .path9:before {
+    content: "\e95b";
+    margin-left: -1em;
+    color: rgb(155, 194, 227);
+}
+#vvSnowboundLogo > .path10:before {
+    content: "\e95c";
+    margin-left: -1em;
+    color: rgb(155, 194, 227);
+}
+
+
+/* Keeping these background styles for customer-specified icons*/
+#vvToolbar .toolbar-icon, #vvAnnToolbar .toolbar-icon {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top left; 
+    background-size: 24px 24px;
+    background-color: transparent;
+    margin-top:3px;
+    width: 24px;
+    height: 24px;
+    float: left;
+    border: none;
+}
+
+#vvToolbar .vvToolbarItem.mouseDown .icon, #vvAnnToolbar .vvToolbarItem.mouseDown .icon, #vvThumbToggleButton.mouseDown, #vvToolbar .vvToolbarButton.mouseDown,
+#vvAnnToolbar .vvToolbarButton.mouseDown{
+    background-size: 22px 22px;
+    background-position: 2px 2px;
+}
+
+#vvToolbar .vvToolbarItem.mouseDown[aria-disabled="true"] .icon, #vvToolbar .vvToolbarItem[aria-disabled="true"] .icon,
+#vvAnnToolbar .vvToolbarItem.mouseDown[aria-disabled="true"] .icon, #vvAnnToolbar .vvToolbarItem[aria-disabled="true"] .icon,
+#vvThumbToggleButton.mouseDown[aria-disabled="true"], #vvThumbToggleButton[aria-disabled="true"] {
+    opacity: 0.4;
+    background-position: top left; 
+    background-size: 24px 24px;
+}
+
+#vvToolbar .vvToolbarItem.vvGoToPreviousPage.mouseDown .icon, #vvToolbar .vvToolbarItem.vvGoToNextPage.mouseDown .icon{
+    background-size: 14px 14px;
+    background-position: 6px 6px;
+}
+
+#vvToolbar .vvToolbarItem.vvGoToPreviousPage.mouseDown[aria-disabled="true"] .icon, #vvToolbar .vvToolbarItem.vvGoToPreviousPage[aria-disabled="true"] .icon,
+#vvToolbar .vvToolbarItem.vvGoToNextPage.mouseDown[aria-disabled="true"] .icon, #vvToolbar .vvToolbarItem.vvGoToNextPage[aria-disabled="true"] .icon,
+#vvToolbar .vvToolbarItem.vvGoToPreviousPage .icon, #vvToolbar .vvToolbarItem.vvGoToNextPage .icon{
+    background-size: 16px 16px;
+    background-position: 4px 4px;
+}
+
+#vvToolbar .vvToolbarItem.vvGoToFirstPage.mouseDown .icon, #vvToolbar .vvToolbarItem.vvGoToLastPage.mouseDown .icon{
+    background-size: 18px 18px;
+    background-position: 4px 4px;
+}
+
+#vvToolbar .vvToolbarItem.vvGoToFirstPage.mouseDown[aria-disabled="true"] .icon, #vvToolbar .vvToolbarItem.vvGoToFirstPage[aria-disabled="true"] .icon,
+#vvToolbar .vvToolbarItem.vvGoToLastPage.mouseDown[aria-disabled="true"] .icon, #vvToolbar .vvToolbarItem.vvGoToLastPage[aria-disabled="true"] .icon,
+#vvToolbar .vvToolbarItem.vvGoToFirstPage .icon, #vvToolbar .vvToolbarItem.vvGoToLastPage .icon{
+    background-size: 20px 20px;
+    background-position: 2px 2px;
+}

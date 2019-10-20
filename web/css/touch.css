@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    
+    position: fixed;
+    
+    -webkit-text-size-adjust: none;
+}
+
+div#vvThumbs {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+div#vvSplitPaneDiv {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;  
+}
+
+
+div#vvOuterDiv {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+div#vvLayerManagerDiv {
+    visibility: collapse;
+    width: 0px;
+    height: 0px;
+}
+
+div#vvContextMenu {
+    visibility: collapse;
+    width: 0px;
+    height: 0px;
+}
+
+input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+}
+
+div.vvToolbarButton {
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+}
+
+div#vvImageInfoDialog {
+    -webkit-overflow-scrolling: touch;
+}
+

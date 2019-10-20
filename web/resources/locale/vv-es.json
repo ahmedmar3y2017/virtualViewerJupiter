@@ -1,0 +1,765 @@
+{
+    "windowTitle": "VirtualViewer HTML5",
+    "utilityToolbar": {
+        "saveDocument": {
+            "title": "Guardar documento",
+            "saveMenuOption": "Guardar",
+            "saveWithRedactionsMenuOption": "Guardar con redacciones quemadas",
+            "saveWithRedactionsAnnotationsMenuOptions": "Guardar con redacciones y anotaciones quemadas"
+        },
+        "saveDocumentAs": {
+            "title": "Guardar documento como"
+        },
+        "uploadDocument": {
+            "title": "Cargar documento"
+        },
+        "exportDocument": {
+            "title": "Exportar documento"
+        },
+        "sendDocument": {
+            "title": "Enviar documento"
+        },
+        "emailDocument": {
+            "title": "Enviar documento por correo electrónico"
+        },
+        "printDocument": {
+            "title": "Imprimir"
+        },
+        "separator": {
+            "title": ""
+        },
+        "miniSeparator": {
+            "title": ""
+        },
+        "zoomIn": {
+            "title": "Acercar"
+        },
+        "zoomOut": {
+            "title": "Alejar"
+        },
+        "rubberbandZoom": {
+            "title": "Zoom en un área"
+        },
+        "magnifier": {
+            "title": "Lupa"
+        },
+        "fitToWindow": {
+            "title": "Ajustar a la ventana"
+        },
+        "fitToHeight": {
+            "title": "Ajustar a la altura"
+        },
+        "fitToWidth": {
+            "title": "Ajustar al ancho"
+        },
+        "goToFirstPage": {
+            "title": "Ir a la primera página"
+        },
+        "goToPreviousPage": {
+            "title": "Ir a la página anterior"
+        },
+        "jumpToPage": {
+            "title": "Saltar a la página"
+        },
+        "goToNextPage": {
+            "title": "Ir a la página siguiente"
+        },
+        "goToLastPage": {
+            "title": "Ir a la última página"
+        },
+        "rotateRight": {
+            "title": "Rotar a la derecha"
+        },
+        "rotateLeft": {
+            "title": "Rotar a la izquierda"
+        },
+        "pictureControls": {
+            "title": "Controles de imagen"
+        },
+        "crop": {
+            "title": "Recortar"
+        },
+        "toggleImageInfo": {
+            "title": "Información de imagen"
+        },
+        "showAboutDialog": {
+            "title": "Acerca de"
+        },
+        "showUserPreferencesDialog": {
+            "title": "Preferencias del usuario"
+        },
+        "toggleThumbnailPanel": {
+            "title": "Alternar vistas en miniatura"
+        },
+        "fileGroup": "Archivo",
+        "zoomGroup": "Zoom",
+        "pagesGroup": "Páginas",
+        "infoGroup":  "Información y configuración",
+        "pageManipulationGroup": "Manipulación de página",
+        "toggleFullScreen": "Alternar vista de pantalla completa"
+
+    },
+    "annToolbar": {
+        "stickyNote": {
+            "title": "Nota adhesiva"
+        },
+        "textEdit": {
+            "title": "Editar texto"
+        },
+        "imageRubberStamp": {
+            "title": "Sello de goma de imagen"
+        },
+        "highlightRectangle": {
+            "title": "Resaltar área"
+        },
+        "redactionArea": {
+            "title": "�?rea de redacción"
+        },
+        "line": {
+            "title": "Línea"
+        },
+        "arrow": {
+            "title": "Flecha"
+        },
+        "freehand": {
+            "title": "Mano alzada"
+        },
+        "filledRectangle": {
+            "title": "Rectángulo lleno"
+        },
+        "filledEllipse": {
+            "title": "Elipse llena"
+        },
+        "filledPolygon": {
+            "title": "Polígono lleno"
+        },
+        "rectangle": {
+            "title": "Rectángulo"
+        },
+        "ellipse": {
+            "title": "Elipse"
+        },
+        "polygon": {
+            "title": "Polígono"
+        },
+        "layerManager": {
+            "title": "Gestor de capas"
+        },
+        "createWatermark": {
+            "title": "Agregar marca de agua"
+        },
+        "textAndStampsGroup": "Texto y sellos",
+        "markupGroup": "Marcado",
+        "shapesGroup":  "Formas"
+    },
+    "layerManager": {
+        "title": "Gestor de capas",
+        "annLayersTitle": "Capas de anotaciones",
+        "imageLayersTitle": "Capas de imágenes",
+        "activeLayer": "Capa activa",
+        "emptyLayerDialogMessage": "No hay capas para mostrar.",
+        "numericLayerLabel": "Capa",
+        "oneLayerPerAnnotation": "Las capas se crearán automáticamente cuando se agreguen anotaciones.",
+        "addLayer": {
+            "value": "Agregar",
+            "title": "Crear nueva capa"
+        },
+        "deleteLayer": {
+            "value": "-",
+            "title": "Borrar capa"
+        },
+        "consolidateLayer": {
+            "value": "Consolidar",
+            "title": "Consolidar capas"
+        },
+        "renameLayer": {
+            "value": "R",
+            "title": "Renombrar capa"
+        },
+        "layerVisible": "Esta capa está visible",
+        "layerHidden": "Esta capa está oculta",
+        "allLayerVisibility": "Alternar visibilidad para todas las capas",
+
+        "cancelButton": "Cancelar",
+        "okButton": "OK"
+    },
+    "documentNameFields":  {
+        "heading": "Nombre del documento",
+        "documentName": "Nombre del documento"
+    },
+    "pageRangeFields": {
+        "heading": "Páginas",
+        "complexRange": "Rango complejo",
+        "currentPage": "Página actual",
+        "allPages": "Todas las páginas"
+    },
+    "formatFields":  {
+        "heading": "Formato",
+        "pdf": "PDF",
+        "tiff": "TIFF",
+        "original": "Original"
+    },
+    "annotationFields":  {
+        "heading": "Anotaciones",
+        "includeAnnotations": "Incluir anotaciones",
+        "text": "Texto",
+        "nonText": "Sin texto"
+    },
+    "redactionFields":  {
+        "heading": "Redacciones",
+        "includeRedactions": "Quemar redacciones (permanente)",
+        "includeRedactionTags": "Incluir etiquetas de redacción"
+    }, 
+    "documentNotesFields":  {
+        "heading": "Notas del documento",    
+        "includeDocumentNotes":  "Incluir notas del documento" 
+    }, 
+    "watermarksFields":  {
+        "heading": "Marcas de agua",    
+        "includeWatermarks":  "Incluir marcas de agua" 
+    }, 
+    "commonDialog": {
+        "closeButton": "Cerrar",
+        "cancelButton":  "Cancelar"
+    },
+    "tagAllRedactionsDialog": {
+        "title": "Etiquetar todas las redacciones",
+        "tagsLabel": "Etiqueta(s):",
+        "okButton": "OK",
+        "cancelButton": "Cancelar", 
+        "errorMessage": "¡Error! Seleccionar una etiqueta."
+    },
+    "saveAsDialog": {
+        "title": "Guardar como",
+        "confirmButton": "Guardar como",
+        "errors": {
+            "noDocumentName": "Ingresar un nuevo nombre de documento."
+        }
+    },
+    "copyToNewDialog": {
+        "title": "Crear nuevo documento",
+        "confirmButton": "Crear"
+    },
+    "uploadDocumentDialog": {
+        "title": "Cargar documento",
+        "chooseFileButton": "Elegir archivo",
+        "okButton": "OK",
+        "cancelButton": "Cancelar",
+        "uploadDisabled": "La función Cargar documento ha sido desactivada por el administrador."
+    },
+    "exportDialog": {
+        "title": "Exportar documento",
+        "confirmButton": "Exportar"
+    },
+    "emailDialog": {
+        "title": "Enviar documento por correo electrónico",
+        "confirmButton": "Enviar",
+
+        "sendFieldCaption": "Enviar",
+        "fromFieldCaption": "De",
+        "toFieldCaption": "Para",
+        "subjectFieldCaption": "Asunto",
+        "subjectFieldDefaultContents": "Documento de VirtualViewer anexo",
+        "bodyFieldDefaultContents": "Vea el documento anexo enviado de VirtualViewer."
+    },
+    "printDialog": {
+        "title": "Imprimir",
+        "confirmButton": "Imprimir",
+
+        "destination": "Destino",
+        "local": "Imprimir",
+        "pdf": "Guardar como PDF"
+    },
+    "cropDialog": {
+        "title": "Recortar",
+        "message": "Entrando al modo de vista previa de recorte. El recorte eliminará todas las anotaciones de su página. Para guardar el recorte, use Exportar o Guardar como para enviarlo a un documento nuevo, o Guardar para sobrescribir el archivo.",
+        "cropButton": "OK",
+        "cancelButton": "Cancelar"
+    },
+    "watermarksDialog": {
+        "title": "Marcas de agua",
+        "confirmButton":  "Aplicar marca de agua", 
+        "cancelButton":  "Cerrar", 
+
+        "existingWatermarks":  {
+            "heading": "Crear o editar", 
+            "createNewOption": "Crear nuevo" 
+        },
+
+        "editText": {
+            "heading": "Editar texto",
+            "textControlLabel":  "Insertar:", 
+            "username":  "Editado por",
+            "serverTime":  "Fecha\/hora de creación",
+            "printTime":  "Fecha\/hora de impresión",
+            "pageNumber":  "Número de página", 
+            "totalPages": "Total de páginas",
+            "documentName":  "Nombre del documento"     
+        },
+        "appearance":  {
+            "heading": "Aspecto", 
+            "horizontal":  "Horizontal",
+            "vertical":  "Vertical",
+            "diagonal":  "Diagonal",
+            "watermarkShortPlaceholder":  "ABC", 
+            "watermarkPlaceholder":  "Marca de agua", 
+            "fontSize":  "Tamaño de la fuente",
+            "stretchFont": "Estirar para ajustar", 
+            "transparent":  "Transparente",
+            "opaque": "Opaco"  
+        },
+        "errors": {
+            "noText":  "La marca de agua debe tener texto"     
+        } 
+    },
+    "thumbContextMenu": {
+        "selectAll": "Seleccionar todo",
+        "selectNone": "No seleccionar nada",
+        "cut": "Cortar",
+        "copy": "Copiar",
+        "delete": "Borrar",
+        "insertBefore": "Insertar antes",
+        "insertAfter": "Insertar después",
+        "newDocument": "Copiar al nuevo documento",
+        "cutNewDocument": "Cortar al nuevo documento",
+        "addBookmark": "Agregar marcador"
+    },
+    "thumbPageLabel": "Página",
+    "textAnnContextMenu": {
+        "newTextAnn": "Nueva anotación textual"
+    },
+    "selectTextContextMenu": {
+        "copy": "Copiar",
+        "highlight": "Resaltar",
+        "redact": "Redactar",
+        "undoSplit": "Cerrar comparación de documentos"
+    },
+    "docThumbContextMenu": {
+        "splitImage": "Comparación de documentos"
+    },
+    "thumbnails": {
+        "pageTab": {"title": "Pestaña de páginas"},
+        "documentTab": {"title": "Pestaña de documentos"},
+        "searchTab": {"title": "Pestaña de búsqueda"},
+        "notesTab": {"title": "Pestaña de notas"},
+        "bookmarksTab": {"title": "Pestaña de marcadores"}
+    },
+    "loadWaitDialog": "Espere mientras su imagen se carga",
+    "saveWaitDialog": "Espere mientras se guarda su documento",
+    "printWaitDialog": "Espere mientras se imprime su documento",
+    "emailWaitDialog": "Espere mientras se envía su documento por correo electrónico",
+    "deleteAnnDialog": {
+        "title": "¿Borrar anotación?",
+        "value": "¿Seguro que quiere borrar esta anotación?",
+        "deleteButton": "Borrar",
+        "cancelButton": "Cancelar"
+    },
+    "clipboardDialog": {
+        "clipboardTitleStart": "Copiar al portapapeles",
+        "okButton": "OK"
+    },
+    "bookmarkDialog": {
+        "title": "Crear nuevo marcador",
+        "editTitle": "Editar marcador",
+        "bookmarkNote": "Nota",
+        "okButton": "OK",
+        "cancelButton": "Cancelar",
+        "errors": {
+            "noPage": "Pase un número de página para editar un marcador",
+            "virtualDocument": "Los marcadores no son compatibles en documentos virtuales",
+            "noBookmarks": "No existe ningún marcador para la página proporcionada"
+        }
+    },
+    "bookmarks": {
+        "deleteButton": "Borrar marcador",
+        "bookmarkDefault": "Marcador"
+    },
+    "passwordProtectedFileDialog": {
+        "title": "Archivo protegido con contraseña",
+        "downloadButton": "Bajar",
+        "cancelButton": "Cancelar",
+        "error": "Este archivo está cifrado o protegido con contraseña"
+    },
+    "exportUnsupportedFileDialog": {
+        "title": "Formato de archivo no compatible",
+        "downloadButton": "Bajar",
+        "cancelButton": "Cancelar",
+        "error": "Este formato no es compatible"
+    },
+    "splitNotAllowedDialog": {
+        "title": "No se permite la comparación de documentos",
+        "error": "Abra un documento antes de ingresar al modo de comparación de documentos.",
+        "OkButton": "OK"
+    },
+    "addLayerDialog": {
+        "layerName": "Nombre de la capa"
+    },
+    "deleteLayerDialog": {
+        "value": "¿Seguro que quiere borrar esta capa?"
+    },
+    "renameLayerDialog": {
+        "layerName": "Nombre de la capa"
+    },
+    "aboutDialog": {
+        "productName": "VirtualViewer HTML5",
+        "versionPrefix": "v",
+        "okButton": "OK",
+        "helpButton": "Ayuda",
+        "text": "®1996-2019 Todos los derechos reservados. (Información de licencias). VirtualViewer y el logotipo de VirtualViewer son marcas comerciales de Snowbound Software Corporation. Todos los derechos reservados. Algunas marcas comerciales se usan bajo licencia de empresas asociadas."
+    },
+    "notes": {
+        "addNote": "Agregar nota",
+        "deleteNote": "Borrar nota",
+        "selectTemplate": "Seleccionar plantilla",
+        "created": "Creado:",
+        "edited": "Editado:",
+        "applyButton": "Aplicar",
+        "cancelButton": "Cancelar"
+
+    },
+    "annPopUp": {
+        "editText": {
+            "title": "Editar texto",
+            "value": "Editar texto",
+            "save": "Guardar",
+            "cancel": "Cancelar"
+        },
+        "fontColorGroupLabel": {
+            "value": "Color de fuente:"
+        },
+        "lineColorGroupLabel": {
+            "value": "Color de línea:"
+        },
+        "fillColorGroupLabel": {
+            "value": "Color de relleno:"
+        },
+        "borderColorGroupLabel": {
+            "value": "Color de borde:"
+        },
+        "colorGrid": {
+            "more": "Más colores...",
+            "custom": "Personalizado:"
+        },
+        "lineSizeGroupLabel": {
+            "value": "Tamaño de la línea:"
+        },
+        "borderSizeGroupLabel": {
+            "value": "Tamaño del borde:"
+        },
+        "fontFaceLabel": {
+            "value": "Fuente:"
+        },
+        "fontSizeLabel": {
+            "value": "Tamaño de la fuente:"
+        },
+        "bold": "Negrita",
+        "italic": "Cursiva",
+        "tag": "Etiqueta(s):",
+        "addAnnNote": "Agregar nota de anotación",
+        "showAnnNotes": {
+            "title": "Notas de anotaciones",
+            "value": "Notas"
+        },
+        "deleteAnn": {
+            "title": "Borrar",
+            "value": "Borrar"
+        },
+        "annCreateText": "Creado por: ",
+        "annDateText": "El: ",
+        "annUnknownUser": "Usuario desconocido",
+        "annRevisions": {
+          "viewRevisions": { "title": "Mostrar historial detallado de revisiones" },
+          "modifyUser": "Modificado por: ",
+          "modifyDate":  "El: "
+        }
+    },
+    "annotationTag": {
+        "deleteButton": "Quitar etiqueta",
+        "addButton": "Agregar etiqueta"
+    },
+    "imageInfo": {
+        "dialogTitle": "Propiedades del documento y de la página",
+        "documentInfoHeader": "Información del documento",
+        "pageInfoHeader": "Información de la página",
+        "documentId": "ID del documento",
+        "documentDisplayName": "Nombre del documento",
+        "documentByteSize": "Tamaño del archivo (Bytes)",
+        "pageCount": "Conteo de páginas",
+        "documentFormat": "Formato del archivo",
+        "compressionType": "Tipo de compresión",
+        "imageSizePixels": "Tamaño en pixeles",
+        "imageSizeInches": "Tamaño de la imagen",
+        "dpi": "DPI",
+        "bitDepth": "Profundidad de bits",
+        "pageNumber": "Número de página",
+        "tiffTag315": "Derechos de autor"
+    },
+    "search": {
+        "startSearch": {
+            "title": "Ir"
+        },
+        "docSearch": {
+            "title": "Buscar documento"
+        },
+        "annSearch": {
+            "title": "Buscar anotaciones"
+        },
+        "previousMatch": {
+            "title": "Coincidencia anterior"
+        },
+        "nextMatch": {
+            "title": "Coincidencia siguiente"
+        },
+        "redactAllMatches": {
+            "title": "Redactar todas las coincidencias"
+        },
+        "redactCurrentMatch": {
+            "title": "Redactar la coincidencia actual"
+        },
+        "tagAllRedactions": {
+            "title": "Etiquetar todas las redacciones"
+        },
+        "basicSearchMode": {
+            "title": "Búsqueda básica"
+        },
+        "patterns": {
+            "ssn": "Números de seguro social",
+            "telephone": "Números de teléfono",
+            "cc": "Números de tarjetas de crédito",
+            "email": "Direcciones de correo electrónico"
+        }
+    },
+    "permanentChangeDialog": {
+        "title": "Cambio permanente",
+        "confirmMessageLine1": "Esta acción cambiará de manera permanente su documento original.",
+        "confirmMessageLine2": "¿Seguro que desea continuar?"
+    },
+    "ocrDialog": {
+        "title": "OCR de un documento no textual",
+        "confirmMessageLine1": "Este no es un documento de texto. VirtualViewer llevará a cabo un reconocimiento óptico de caracteres para intentar recuperar el texto de este documento. Esto tal vez no surta efecto en todos los documentos ni en todo el texto dentro de un documento.",
+        "confirmMessageLine2": "¿Desea continuar?",
+        "confirmButton": "Realizar OCR",
+        "waitMessage": "OCR en curso..."
+    },
+    "annotationNavigation": {
+        "showAnnotationNaviPanel": {
+            "title": "Alternar la navegación de la anotación"
+        },
+        "goToPrevPageWithAnn": {
+            "title": "Página previa de anotaciones"
+        },
+        "goToNextPageWithAnn": {
+            "title": "Página siguiente de anotaciones"
+        },
+        "showThumbsWithAnnotationsOn": {
+            "title": "Encender el filtro"
+        },
+        "showThumbsWithAnnotationsOff": {
+            "title": "Apagar el filtro"
+        }
+    },
+    "pictureControls": {
+        "title": "Controles de imagen",
+        "brightnessIcon": {
+            "title": "Brillo (ícono)"
+        },
+        "brightnessSlider": {
+            "title": "Brillo (barra deslizante)"
+        },
+        "brightnessValue": {
+            "title": "Brillo (valor)"
+        },
+        "contrastIcon": {
+            "title": "Contraste (ícono)"
+        },
+        "contrastSlider": {
+            "title": "Contraste (barra deslizante)"
+        },
+        "contrastValue": {
+            "title": "Contraste (valor)"
+        },
+        "gammaIcon": {
+            "title": "Gamma (ícono)"
+        },
+        "gammaSlider": {
+            "title": "Gamma (barra deslizante)"
+        },
+        "gammaValue": {
+            "title": "Gamma (valor)"
+        },
+        "okButton": "OK",
+        "cancelButton": "Cancelar"
+    },
+    "emptyEmailFields": {
+        "dialogTitle": "Información incompleta",
+        "okButton": "OK",
+        "missingFrom": "El campo \"De\" debe ser llenado.",
+        "missingTo": "El campo \"Para\" debe ser llenado."
+    },
+    "confirmChangesDialog": {
+        "dialogTitle": "Confirmar cambios",
+        "yesButton": "Sí",
+        "noButton": "No",
+        "cancelButton": "Cancelar",
+        "message": "¿Desea guardar los cambios en?: "
+    },
+    "browserClose": {
+        "message": "Tiene cambios sin guardar en esta sesión."
+    },
+    "disableToolbarDialog": {
+        "okButton": "OK"
+    },
+    "errorDialog": {
+        "title": "Error",
+        "okButton": "OK"
+    },
+    "errors": {
+        "deleteLayerPermission": "No tiene permiso para borrar esta capa",
+        "renameLayerPermission": "No tiene permiso para renombrar esta capa",
+        "createAnnOnLayerPermission": "No tiene permiso para crear anotaciones en esta capa",
+        "editAnnOnLayerPermission": "No tiene permiso para editar anotaciones en esta capa",
+        "invalidLayerName": "Nombre de capa no válido. Escoja un nuevo nombre de capa.",
+        "layerNameAlreadyExists": "Ya existe una capa con ese nombre.",
+        "tabTooManyOpen": "Demasiadas pestañas abiertas.",
+        "tabIndexOutOfBounds": "�?ndice fuera de límites.",
+        "tabCloseLastTab": "No se puede cerrar la última pestaña.",
+        "searchNotSearchable": "No se puede buscar en el documento.",
+        "virtualDocumentNotes": "Las notas aún no son compatibles en documentos virtuales",
+        "virtualDocumentBookmark": "Los marcadores aún no son compatibles en documentos virtuales",
+        "virtualDocumentSaving": "No se puede guardar como original en documentos virtuales. Use las opciones Exportar o Guardar como.",
+        "virtualDocumentFeature": "La función que está tratando de usar aún no es compatible en documentos virtuales.",
+        "virtualDocumentSearch": "La búsqueda aún no es compatible en documentos virtuales",
+        "invalidColorString": "Cadena de color no válido.",
+        "imageFailedToLoad": "No se pudo cargar la imagen",
+        "onePageLimit": "El documento debe contener por lo menos 1 página",
+        "annotationsDisabled": "Las anotaciones están desactivadas",
+        "splitScreenDisabled": "La función Comparación de documentos ha sido desactivada por el administrador.",
+        "noText": "No hay ningún texto seleccionable en esta página",
+        "redactionsDisabled": "Las redacciones están desactivadas",
+        "failureLoadingUserPreferences": "Problema al cargar las preferencias del usuario. Cambiar las preferencias del usuario a los valores predeterminados.",
+        "noLayersExist": "No existen capas.",
+        "bookmarkExists": "¡Ya existe el marcador!",
+        "pageHasNoBookmark": "La página no tiene marcador para borrar.",
+        "clipboardEmpty": "No hay páginas en el portapapeles.",
+        "cropBlock": "No se puede anotar en la vista previa del recorte. Guardar el recorte antes de anotar.",
+        "cropDisabled": "La función Recortar ha sido desactivada por el administrador.",
+        "uploadExistingDocument": "Ya existe un documento con este nombre. Cambie el nombre del archivo e intente de nuevo",
+        "complexRangeEmpty": "Rango de página complejo en blanco",
+        "complexRangeInvalidCharacter": "Carácter no válido en rango de página complejo:",
+        "complexRangePageOutOfBounds": "Una o más páginas del rango seleccionado están fuera de los límites",
+        "complexRangeUnsupportedSyntax": "Sintaxis incorrecta de páginas. Verifique que el número más bajo esté a la izquierda del guion.",
+        "documentTooTallForIE":  "Las dimensiones de este documento son demasiado grandes para poder visualizarlo con Internet Explorer. Cambie de navegador o hable con un administrador.",
+        "printDocumentMustBeOpened": "El documento que mandó a imprimir no está abierto en VirtualViewer.",
+        "printTooManyPagesForIE": "Debido a limitaciones de Internet Explorer, no es posible imprimir más de %n páginas a la vez.  Divida su tarea de impresión en juegos de %n páginas o menos.",
+        "printTooManyPagesForFirefox": "Debido a limitaciones de Firefox, no es posible imprimir más de %n páginas a la vez.  Divida su tarea de impresión en juegos de %n páginas o menos.",
+        "documentNotFound": "No se encontró el documento: "
+    },
+
+    "hotkeyHints": {
+        "title": "Atajos de teclado",
+        "zoomIn": "Acercar",
+        "zoomOut": "Alejar",
+        "flipX": "Voltear horizontalmente",
+        "flipY": "Voltear verticalmente",
+        "exportDocument": "Exportar documento",
+        "printDocument": "Imprimir documento",
+        "invert": "Invertir color",
+        "lastPage": "Última página",
+        "firstPage": "Primera página",
+        "previousPage": "Página anterior",
+        "nextPage": "Página siguiente",
+        "rotateCounter": "Rotar en sentido anti-horario",
+        "rotateClock": "Rotar en sentido horario",
+        "showAboutDialog": "Mostrar el cuadro de diálogo \"Acerca de\"",
+        "showKeyboardHints": "Mostrar las pistas de teclado",
+        "toggleLayerManager": "Alternar gestor de capas",
+        "toggleThumbnailPanel": "Alternar panel de vistas en miniatura",
+        "fitHeight": "Ajustar a la altura",
+        "fitWidth": "Ajustar al ancho",
+        "fitWindow": "Ajustar a la ventana",
+        "scrollUpBy33Percent": "Desplazar arriba 33%",
+        "scrollDownBy33Percent": "Desplazar abajo 33%",
+        "panLeft": "Desplazar a la izquierda",
+        "panRight": "Desplazar a la derecha",
+        "panUp": "Desplazar hacia arriba",
+        "panDown": "Desplazar hacia abajo",
+        "thumbPageDown": "Avanzar página en miniatura",
+        "thumbPageUp": "Retroceder página en miniatura",
+        "toggleHGuide": "Alternar guía horizontal",
+        "toggleVGuide": "Alternar guía vertical",
+        "toggleCrosshairGuide": "Alternar guías en forma de cruz",
+        "copyText": "Copiar el texto seleccionado",
+        "searchText": "Buscar texto",
+        "enterSelectTextMode": "Ingresar al modo de selección de texto",
+        "enterGuideMode": "Ingresar al modo de guía",
+        "toggleTextSelectionMode": "Alternar la selección de texto de columna",
+        "toggleImageInfo": "Alternar el recuadro de diálogo de información de la imagen",
+        "enterPanMode": "Ingresar al modo panorámico",
+        "collapseStickyNotes": "Contraer notas adhesivas",
+        "expandStickyNotes": "Expandir notas adhesivas",
+        "showUserPreferences": "Mostrar las preferencias del usuario"
+    },
+
+    "pageManipulations": {
+        "disabled": "Las manipulaciones de página fueron desactivadas por el administrador en la configuración.",
+        "redactions": "Las manipulaciones de página actualmente no son compatibles en documentos que contienen redacciones.",
+        "restrictedFormat": "Las manipulaciones de página están desactivadas para este formato de documentos."
+    },
+
+    "redactionWarningDialog": {
+        "okButton": "OK",
+        "title": "Advertencia de funcionalidad de redacción: Lea cuidadosamente",
+        "redactedVersionTitle": "Crear una versión redactada",
+        "redactedVersionText": "Al marcar un área para redacción en un documento, el texto subyacente permanecerá visible para todos los usuarios cuando sea visto dentro del documento original. Las redacciones se aplican permanentemente al guardar una versión redactada de un documento, y solo esa versión se considera un documento redactado.",
+        "searchAndRedactTitle": "Buscar y redactar",
+        "searchAndRedactText": "Los resultados de buscar y redactar no incluyen contenido que pueda aparecer en imágenes o en arte lineal no textual. Las redacciones para contenido en imágenes deben ser creadas usando la opción de redacción manual que se encuentra en la barra de herramientas de Anotaciones. Los resultados de buscar y redactar no deben considerarse un mecanismo completamente minucioso para asegurarse de encontrar todo el contenido esperado.",
+        "visualVerificationTitle": "Verificación visual",
+        "visualVerificationText": "Antes de crear una versión redactada del documento, se recomienda firmemente la confirmación visual para garantizar que todo el contenido esperado haya sido identificado y marcado para la redacción."
+    },
+
+    "userPreferencesDialog": {
+        "title": "Preferencias del usuario",
+        "resetButton": "Restablecer",
+        "saveButton": "Guardar",
+        "cancelButton": "Cancelar",
+        "toolbarConfigTab": "Configuración de la barra de herramientas",
+        "annPropertiesTab": "Propiedades de la anotación",
+        "customTextStampsTab": "Sellos textuales personalizados",
+        "notesTemplateTab": "Plantillas de notas",
+        "generalTab": "Preferencias generales",
+        "imageControl": "Controles de imagen",
+        "annToolbar": "Barra de herramientas de anotaciones",
+        "annHeader": "Tipo de anotaciones",
+        "annPropFor": "Propiedades de la anotación para",
+        "stampsHeader": "Sellos",
+        "stampPropFor": "Propiedades de sello para",
+        "displayName": "Nombre para mostrar:",
+        "userNameInput": "Usuario no definido",
+        "stampText": "Texto del sello:",
+        "fontColor": "Color de fuente:",
+        "fillColor": "Color de relleno:",
+        "lineColor": "Color de línea:",
+        "moreColors": "Más colores...",
+        "custom": "Personalizado:",
+        "lineSize": "Tamaño de la línea:",
+        "font": "Fuente:",
+        "fontSize": "Tamaño de la fuente:",
+        "bold": "Negrita",
+        "italic": "Cursiva",
+        "underline": "Subrayar",
+        "defaultFitTo": "Ajuste predeterminado para preferencias",
+        "fitToWindow": "Ajustar a la ventana",
+        "fitToHeight": "Ajustar a la altura",
+        "fitToWidth": "Ajustar al ancho",
+        "zoomPercent": "Porcentaje de zoom",
+        "addNewStamp": "Agregar",
+        "removeStamp": "Eliminar",
+        "templatesHeader":"Plantillas",
+        "addNewTemplate":"Agregar",
+        "removeTemplate":"Eliminar",
+        "templatePropFor": "Propiedades de la plantilla para",
+        "templateDisplayName": "Nombre de la plantilla:",
+        "templateText": "Texto de la plantilla:", 
+        "usernameTitle": "Configuración de nombre de usuario"
+    }
+}

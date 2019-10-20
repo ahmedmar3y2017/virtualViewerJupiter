@@ -1,0 +1,16 @@
+
+@media print {
+    @page { 
+        margin: 0.0cm; 
+        size: letter portrait;
+    }
+ 
+    .vvPrintPageImage {
+        width: 97%;
+    }
+
+    .vvBreakhere:not(:last-child) {
+        /* skip the last page with :not(:last-child) to avoid a empty last page */
+        page-break-before: always;
+    }
+}

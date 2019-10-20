@@ -1,0 +1,1265 @@
+/********************************
+ * All dialog style elements    *
+ ********************************/
+.vvFieldsetLegend {
+    font-weight: bold;
+}
+
+.modal-body .form-group {
+    margin-bottom:20px;
+}
+
+.modal-body .vvDialogDisabledText {
+    color: gray;
+    cursor: default;
+}
+
+.modal-body form label {
+    font-weight: normal;
+}
+.preference-button {
+    float: left;
+}
+.preference-saved-button {
+    float: left;
+    display: none;
+}
+
+/*******************************
+ * Wait ind. style elements    *
+ *******************************/
+
+div#vvWaitIndicator {
+    display: none;
+}
+
+#vvWaitIndicator .modal-header {
+    border-bottom: none;
+}
+
+/*******************************
+ * Print Wait ind. style elements    *
+ *******************************/
+
+div#vvPrintIndicator {
+    display: none;
+}
+
+/*******************************
+ * Error Wait ind. style elements    *
+ *******************************/
+
+div#vvErrorIndicator {
+    display: none;
+}
+/*******************************
+ * Email Wait ind. style elements    *
+ *******************************/
+
+div#vvEmailIndicator {
+    display: none;
+}
+
+/*******************************
+ * Empty Email Fiends (To/From) style elemts *
+ *******************************/
+
+div#vvEmptyEmailFields {
+    display: none;
+}
+
+/*******************************
+ * Save dialog style elements  *
+ *******************************/
+
+div#vvSaveDocumentIndicator {
+    display: none;
+}
+
+/*******************************
+ * Delete Annotation dialog    *
+ *******************************/
+
+div#vvDeleteAnnotationDialog {
+    display: none;
+}
+
+/*******************************
+ * Save As dialog style elements *
+ *******************************/
+
+div#vvSaveAsDialog {
+    display: none;
+}
+
+div#vvSaveAsOptionsAnnotationsTypeCheckboxes {
+    display: none;
+}
+
+/*******************************
+ * Export Unsupported & Password-Protected File Dialog  *
+ *******************************/
+
+div.error-download-dialog {
+    display: none;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 21px;
+}
+
+/*******************************
+ * New Print dialog style elements *
+ *******************************/
+
+div#vvNewPrintDialog {
+    display: none;
+    line-height: 1.4;
+}
+
+#vvNewPrintOptionsPagesInnerDiv > input.basicRange {
+    width: 35px;
+}
+
+#vvNewPrintOptionsPagesInnerDiv > input.pagesRange {
+    width: 40px;
+}
+
+#vvNewPrintOptionsPagesInnerDiv > input.complexRange {
+    width: 200px;
+}
+
+input#vvNewPrintPrinterServer {
+}
+
+div#vvNewPrintOptionsAnnotationsInnerDiv  {
+}
+
+div#vvNewPrintOptionsPagesInnerDiv {
+}
+
+div#vvNewPrintOptionsColorRadio {
+}
+
+div#vvNewPrintOptionsAnnotationsCheckbox {
+}
+
+/*******************************
+ * Export dialog style elements  *
+ *******************************/
+
+div#vvExportDialog {
+    display: none;
+}
+
+div#vvExportOptionsAnnotationsTypeCheckboxes {
+    display: none;
+}
+
+span#vvExportOptionsPagesFields  {
+    line-height:230%
+}
+
+
+span#vvExportOptionsPagesFields > input.basicRange {
+    width: 35px;
+}
+
+span#vvExportOptionsPagesFields > input.complexRange {
+    width: 200px;
+}
+
+
+
+
+/*******************************
+ * About dialog style elements  *
+ *******************************/
+
+div#vvAboutDialog {
+    display: none;
+}
+
+div#vvAboutDialogContents {
+   /* width: 300px;
+    height: 300px;*/
+    background-image: url(../resources/aboutBackground.svg);
+    background-repeat: no-repeat; 
+}
+
+div#vvAboutDialogText {
+    padding-top: 220px;
+    font-size: 11px;
+}
+
+/*******************************
+ * User Preferences dialog style elements  *
+ *******************************/
+
+div#vvUserPreferencesDialog {
+    display: none;
+}
+
+
+#vvUserPreferencesErrorBanner {
+    display: none;
+}
+
+.vvUPAnnPropPane, .vvUPStampEditPane, .vvUPTemplateEditPane {
+    margin: 10px;
+    overflow-x: hidden;
+}
+
+.vvUPAnnotationItem, .vvUPCustomStampItem {
+    cursor: pointer;
+} 
+
+/*
+ * Toolbar Configuration 
+ */
+  
+div#vvUPToolbarConfig {
+    height: 400px;
+    overflow:auto;
+}
+#vvUPImageControl {
+    float: left;
+    width: 50%;
+}
+
+#vvUPAnnotationToolbar {
+    float: right;
+    width: 50%;
+}
+
+#vvUPToolbarListPane {
+    height: 90%;
+    overflow-y: auto;
+}
+
+#vvUPAnnotationToolbarHeader, #vvUPImageControlHeader {
+    background-color: #EEEEEE;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.vvUPToolbarCheckItem {
+    font-weight: normal;
+}
+
+#vvUPToolbarConfig .list-group-item:hover {
+    cursor: default;
+    background-color: #F5F5F5;
+}
+
+
+/*
+ * Styles common between annotation properties command text stamps
+ */
+
+.vvUPDialogSidebar {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.vvUPSidebarScroller {
+    height: 88%;
+    overflow-y: auto;
+}
+
+.vvUPEditFormatPane {
+    float: right;
+    width: 70%;
+    height: 100%;
+}
+
+.vvUPEditFormatPane form {
+    margin-top: 5px;
+}
+
+.vvUPOptionsListHeader {
+    text-align: left;
+    background-color: #EEEEEE;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+/*
+ * Annotation Properties  
+ */
+ 
+div#vvUPAnnotationProp {
+    height: 400px;
+}
+
+.vvUPAnnPropItemHeightAdjust {
+    height: 50px;
+}
+
+form#vvUPAnnotationProperties {
+    height: 87%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/*
+ * Custom Text Stamps
+ */
+div#vvUPCustomTextStamps  {
+    height: 400px;
+}
+
+#vvUPCustomStampHeader {
+    float: left;
+    width: 60%;
+}
+
+#vvUPMainStampsPane{
+    height: 85%;
+}
+
+#vvUPCustomStampPreview {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+}
+
+#vvUPCustomStampPreviewWrapper {
+    height: 50px;
+    width: 100%;
+    padding: 0px;
+}
+
+/*
+* Note Templates
+*/
+div#vvUPNotesTemplates{
+    height:400px;
+}
+
+#vvUPMainNoteTemplatesPane{
+    height: 100%;
+}
+
+
+
+/*
+ * General Preferences
+ */
+
+div#vvUPGeneral {
+    height: 400px;
+    overflow: auto;
+}
+
+.vvUPGeneralForm {
+    padding: 5px 5px 5px 30px;
+}
+#vvUserPreferencesDialogTabs li{
+    min-width: 148px;
+    text-align: center;
+}
+
+/*******************************
+ * Email Document style
+ ********************************/
+
+.email-field {
+    width: 100%;
+}
+
+span.vvFullWidthField  {
+     display: block;
+     overflow: hidden;
+     padding-right: 10px;
+     padding-left: 10px;
+}
+
+
+/*******************************
+ * Document Note Template Dialog
+ ******************************/
+ul#vvDocumentNoteTemplateList {
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.vvDocumentNoteTemplateClass:hover {
+    background-color: #999999;
+}
+
+/*******************************
+ * Keyboard Shortcut Hints dialog style elements  *
+ *******************************/
+
+
+/* This defines the bubble-like style for an individual key in a keystroke combination */
+span.keyboardkey {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    border-style: outset;
+    border: 1px solid #aaa;
+    background: #fafafa;
+    padding: 0px 3px 1px 3px;
+    margin: 0px 0px 0px 0px;
+    vertical-align: baseline;
+    line-height: 1.8em;
+    white-space: nowrap;
+}
+
+div#vvKeyboardHints {
+    display: none;
+}
+
+
+div#vvKeyboardHintsText {
+    padding-top: 10px;
+}
+
+div#vvKeyboardHintsContents {
+    width: 808px;
+    height: 380px;
+    background-repeat: no-repeat;
+}
+
+div#vvKeyboardHints {
+    padding: 2px;
+}
+
+div.vvKeyboardHintsContents {
+    font-family: arial; 
+    font-size: 18px;
+}
+
+table.vvKeyboardHintsMasterTable {
+    border-spacing: 0px;
+}
+
+table.vvKeyboardHintsSubTable {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/* The following two (vvKeyboardHintsEvenRow, vvKeyboardHintsOddRow) are for IE8 and earlier only */
+/* More modern browsers will take advantage of table.vvKeyboardHintsSubTable tr:nth-child */
+tr.vvKeyboardHintsEvenRow {
+    background: #ffffff;
+}
+
+tr.vvKeyboardHintsOddRow {
+    background: #ebebeb;
+}
+
+table.vvKeyboardHintsSubTable tr:nth-child(even) {
+    background: #ffffff;
+}
+
+table.vvKeyboardHintsSubTable tr:nth-child(odd) {
+    background: #ebebeb;
+}
+
+table.vvKeyboardHintsSubTable td {
+    vertical-align:top;
+    font-size: 14px;
+    padding-left:23px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+td.vvKeyboardHintsGap {
+    padding-left:5px;
+}
+
+
+/************************************
+ * Image Info Dialog style elements *
+ ************************************/
+
+.vvImageInfoClass > .ui-dialog-titlebar {
+    font-weight: bold; 
+    border: 1px solid #00517e;
+    color: #ffffff;     
+    background: #006b99; /* IE6-IE8 Will use background. Modern browsers will use background-image */        
+    background-image: linear-gradient( 0deg, rgb(0,95,137), rgb(0,127,182) );
+}
+
+div#vvImageInfoContents {
+    font-family: arial; 
+    overflow: auto;
+}
+
+div#vvImageInfoDialog {
+    padding: 8px;
+}
+
+table.vvImageInfoTable {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+
+tr.vvImageInfoEvenRow {
+    background: #ffffff;
+}
+
+tr.vvImageInfoOddRow {
+    background: #ebebeb;
+}
+
+table.vvImageInfoTable tr:nth-child(even) {
+    background: #ffffff;
+}
+
+table.vvImageInfoTable tr:nth-child(odd) {
+    background: #ebebeb;
+}
+
+table.vvImageInfoTable td {
+    vertical-align:top;
+    font-size: 16px;
+    padding-left:23px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+div.vvImageInfoHeader {
+    padding-top:0px;
+    padding-bottom:6px;
+    padding-left:23px;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+div.vvImageInfoPageHeader {
+    padding-top:2px;
+    padding-bottom:5px;
+    padding-left:0px;
+    font-size: 18px;
+    font-weight:bold;   
+}
+
+
+
+div.vvImageInfoHeader.pageInfo {
+    padding-top:10px;
+}
+
+
+/***************************************
+ * Bookmark dialog style elements  *
+ ***************************************/
+
+div#vvBookmarkDialog {
+    display: none;
+}
+
+/***************************************
+ * Upload file dialog style elements  *
+ ***************************************/
+
+.upload-file-info{
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size: 75%;
+  color: #fff;
+  padding: 0.2em 0.6em 0.3em;
+  border-radius: 0.25em;
+}
+
+.upload-file-info:empty{
+    display: none;
+}
+/***************************************
+*        Picture Controls Dialog       *
+***************************************/
+
+div#vvPictureControlsDialog{
+    display: none;
+}
+
+#vvPictureControlsDialog .modal-body {
+    padding: 15px 15px 0px 30px;
+}
+
+#vvPictureControlsDialog .row {
+    padding-bottom: 15px;
+}
+
+#vvPictureControlsDialog .slider-horizontal {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*******************************
+ * Context menu style elements *
+ *******************************/
+ 
+div#vvContextMenu {
+    background-color: white;
+    border: 2px solid DarkGray;
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 55px;
+    padding-top: 5px;
+    position: absolute;
+    width: 100px;
+    z-index: 999;
+    visibility: hidden;
+}
+
+.vvContextMenuItem {
+    border-bottom: 1px solid LightGrey;
+    border-color: LightGrey;
+    border-width: 1px;
+    padding-left: 8px;
+    padding-top: 1px;
+}
+
+.vvContextMenuItemDisabled {
+    border-bottom: 1px solid LightGrey;
+    border-color: LightGrey;
+    border-width: 1px;
+    padding-left: 8px;
+    padding-top: 1px;
+    color: LightGrey;
+}
+
+.vvContextMenuItemSelected {
+    border-bottom: 1px solid LightGrey;
+    border-color: LightGrey;
+    border-width: 1px;
+    padding-left: 8px;
+    padding-top: 1px;
+    background-color: DarkGrey;
+}
+
+div#vvContextMenuProperties {
+    padding-bottom: 5px;
+}
+
+/*****************************
+ * Ann Pop Up style elements *
+ ****************************/
+div#vvAnnPopUp {
+    display: none;
+
+    position: relative;
+    font: 12px Helvetica;
+    padding: 5px;
+    background-color: #ffffff;
+    width: 250px;
+    z-index: 100;
+
+    border: 1px solid #666666;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+
+    -moz-box-shadow: 3px 3px 0px #666666;
+    -webkit-box-shadow: 3px 3px 0px #666666;
+    box-shadow: 3px 3px 0px #666666;
+
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#666666')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#666666');
+
+    border-radius: 10px;
+}
+
+#vvAnnTextColorLabel, #vvAnnLineColorLabel, #vvAnnFillColorLabel, #vvAnnPopUpEditTextForm, #vvAnnThickness, #vvAnnColor, #vvAnnTag, #vvAnnotationNotes, #vvAnnTextForm {
+    display: none;
+}
+
+#vvAnnPopUpForm.vvAnnHasText #vvAnnPopUpEditTextForm, #vvAnnPopUpForm.vvAnnHasText #vvAnnTextForm, #vvAnnPopUpForm.vvAnnHasText #vvAnnTextColorLabel {
+    display: block;
+}
+
+#vvAnnPopUpForm.vvAnnHasLine #vvAnnThickness, #vvAnnPopUpForm.vvAnnHasLine #vvAnnLineColorLabel {
+    display: block;
+}
+
+#vvAnnPopUpForm.vvAnnHasFill #vvAnnFillColorLabel {
+    display: block;
+}
+
+#vvAnnPopUpForm.vvAnnHasColor #vvAnnColor {
+    display: block;
+}
+
+#vvAnnPopUpForm.vvAnnTags #vvAnnTag {
+    display: block;
+}
+
+#vvAnnPopUpForm.vvAnnHasNotes #vvAnnotationNotes {
+    display: block;
+}
+
+form#vvAnnPopUpForm.vvDisplayingRevisionHistory #vvAnnPopUpEditTextForm, form#vvAnnPopUpForm.vvDisplayingRevisionHistory #vvAnnTextForm,
+form#vvAnnPopUpForm.vvDisplayingRevisionHistory #vvAnnThickness, form#vvAnnPopUpForm.vvDisplayingRevisionHistory #vvAnnColor,
+form#vvAnnPopUpForm.vvDisplayingRevisionHistory #vvAnnTag, form#vvAnnPopUpForm.vvDisplayingRevisionHistory #vvAnnotationNotes {
+    display: none;
+}
+
+div#vvAnnPopUp .vvColorSquaresContainer{
+    width: 110%;
+}
+#vvAnnPopUp .btn-group-wrap {
+    margin-bottom: 5px;
+}
+#vvAnnColor {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#vvAnnPopUpEditTextArea {
+    resize: vertical;
+    margin-bottom: 5px;
+}
+
+#vvAnnPopUpForm {
+    padding: 15px;
+    max-height: 490px;
+    overflow-y: auto;
+}
+
+#vvAnnotationInformation, .vvAnnotationRevision {
+    padding-bottom: 10px;
+}
+
+.vvAnnPopUpInfo label {
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+#vvAnnTextFace{
+	position:static;
+}
+/********************
+ * Annotation Notes *
+ ********************/
+
+div#vvAnnotationNotes {
+    font: 12px Helvetica;
+    word-wrap: break-word;    
+    padding-bottom: 10px;
+}
+
+#vvAnnotationViewButton {
+    margin-bottom: 5px;
+}
+
+#vvAnnotationViewButton[aria-pressed="true"] {
+    background-color: #ccc;
+}
+
+.vvNotesCloseButton {
+    margin-top: 5px;
+}
+
+#vvAnnotationNotes hr {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+/*******************
+ * Annotation Tags *
+ *******************/
+
+#vvAnnTag {
+    padding-bottom: 15px;
+}
+
+.vvAnnTagChosenBox {
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 2px 4px;
+    color: white;
+    margin: 2px;
+    cursor: default;
+    display: inline-block;
+}
+
+.vvAnnTagContent {
+    margin-right: 5px;
+}
+
+.vvTagOption {
+    display: block;
+    color: gray;
+    cursor: default;
+}
+
+.vvTagOption a {
+    overflow-x: hidden;
+}
+
+.vvAnnTagChosenBox:hover {
+    background-color: #666666;
+}
+
+.vvAnnTagInnerButton {
+    padding-left: 5px;
+    float: right;
+    height: 100%;
+}
+
+.vvAnnTagInnerButton:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.vvAnnPopUpInfo {
+    font-size: 95%;
+}
+
+#vvAnnTagList {
+    max-width: 200px;
+    padding-right: 5px;
+}
+
+
+
+/********************************
+ * Ann Thickness style elements *
+ ********************************/
+button.vvAnnThicknessCell {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 22px;
+}
+
+button.vvAnnThicknessCell[aria-pressed="true"] {    
+    background-color: #ccc;
+}
+
+.vvAnnThicknessElement {
+    height: 10px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+#vvAnnThickness {
+    padding-bottom: 15px;
+    position: static;
+}
+
+
+/********************************
+ * Colorpicker FOR USER PREFERENCES *
+ ********************************/
+
+
+.vvColorPickerSquare {
+    margin: 5px 5px 5px 0px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.vvColorPickerSquare:hover {
+    border: none;
+    cursor: pointer;
+}
+
+.vvColorInputPreview:hover {
+    cursor: pointer;
+}
+
+.vvColorSquaresContainer{
+    width: 80%;
+}
+
+.vvCustomColorRow {
+    padding-left: 5px;
+}
+
+.vvCurrentCustomColorLabel {
+    font-weight: bold;
+    padding-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+.vvColorPickerSquareSelected {
+    border: 3px solid #257ab6;
+}
+
+.vvColorPickerSquareSelected:hover {
+    border: 3px solid #257ab6;
+}
+
+
+/********************************
+ * Ann Thickness  FOR USER PREFERENCES  *
+ ********************************/
+#vvUPAnnThickness {
+    position: relative;
+    height: 50px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.vvUPAnnThicknessCell {
+    position: relative;
+}
+
+.vvUPAnnThicknessElement {
+    position: absolute;
+    height: 10px;
+    background-color: black;
+}
+
+.vvUPAnnThicknessElement:hover {
+    background-color: red;
+}
+
+/********************************
+ * Ann Text  FOR USER PREFERENCES *
+ ********************************/
+#vvUPAnnText {
+    position: relative;
+    padding-left: 5px;
+}
+
+#vvUPAnnTextFace {
+    padding-top: 10px;
+}
+
+#vvUPAnnTextSize {
+    padding-top: 10px;
+}
+
+#vvUPAnnTextFaceLabel {
+    float: left;
+    padding-top: 3px;
+}
+
+#vvUPAnnTextFaceValue {
+    position: relative;
+}
+
+#vvUPAnnTextSizeLabel {
+    float: left;
+    padding-top: 3px;
+}
+
+#vvUPAnnTextSizeValue {
+    position: relative;
+}
+
+#vvUPAnnTextStyle {
+    padding-top: 10px;
+}
+
+
+.makeInvisible {
+    visibility: hidden;
+}
+
+
+/*
+ * Layer manager styles
+ *
+*/
+
+#vvLayerManagerDiv .vvLayerMarkedForDeletion {
+    display: none;
+}
+
+#vvLayerManagerDiv .tab-pane {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+#vvLayerManagerDiv .vvLayerListItem {
+    color:black;
+}
+
+.vvLayerColorIndicator {
+    margin: -5px 10px 5px 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    float: left;
+    height: 30px;
+    width: 28px;
+}
+
+.vvLayerBtnGroup button img, .vvLayerVisButton img {
+    width: 20px;
+    height: 15px;
+}
+
+#vvAddNewLayerListItem {
+    display: none;
+}
+
+.vvAddingNewLayer #vvAddNewLayerListItem {
+    display: block;
+}
+
+.vvEmptyLayerItem, .vvAddingNewLayer.vvEmpty .vvEmptyLayerItem {
+    display: none;
+}
+
+.vvEmptyOfLayers .vvEmptyLayerItem {
+    display: block;
+}
+
+.vvLayerListItem.vvLayerDeletionInquiry .vvLayerText,
+.vvLayerListItem.vvLayerDeletionInquiry .vvLayerBtnGroup,
+.vvLayerListItem .vvDeleteLayerConfirmation {
+    display: none;
+}
+
+.vvLayerListItem.vvLayerDeletionInquiry .vvDeleteLayerConfirmation {
+    display: inline-block;
+}
+
+.vvLayerListItem .vvEditLayerNameDiv, 
+.vvLayerListItem.vvLayerListItemEditing .vvLayerText,
+.vvLayerListItem.vvLayerListItemEditing .vvLayerBtnGroup {
+    display: none;
+}
+
+.vvLayerListItem.vvLayerListItemEditing .vvEditLayerNameDiv,
+#vvAddNewLayerListItem .vvEditLayerNameDiv {
+    display: inline-block;
+}
+
+#vvLayerManagerDiv .modal-footer div {
+    text-align: right;
+}
+
+#vvLayerManagerDiv .vvLayerListItem:hover {
+    color: black;
+    background-color: #F5F5F5;
+}
+
+#vvAnnotationLayersTabContent .vvLayerListItem:hover {
+    cursor: pointer;
+}
+
+#vvLayerManagerDiv .vvAnnEditLayerTextIcon {
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+    padding: 5px;
+}
+
+#vvLayerManagerDiv .vvDeleteLayerConfirmation span {
+    padding-right: 5px;
+}
+
+#vvLayerManagerDiv .vvAnnEditLayerTextIcon:hover {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#vvLayerManagerDiv .btn-group {
+    float: right;
+}
+
+#vvLayerManagerDiv .vvLayerBtnGroup, .vvDeleteLayerConfirmation .btn-group-sm {
+    margin-top: -5px;
+}
+
+#vvLayerManagerDiv .vvLayerListItemEditing .vvLayerBtnGroup {
+    margin-top: auto;
+}
+
+#vvLayerManagerDiv .vvEditLayerNameDiv .btn-group {
+    margin-top: 0px;
+}
+
+#vvLayerManagerDiv .vvEditLayerNameDiv input {
+    width: 55%;
+}
+
+#vvLayerManagerDiv .list-group-item-heading {
+    margin-bottom: 0px;
+}
+
+#vvLayerManagerDiv .activeAnnLayer {
+    background-color: #ccc;
+    color: black;
+}
+
+#vvLayerManagerErrorBanner {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+/*
+ * Watermarks manager styles
+ *
+*/
+
+.watermark-text-control-label {
+    display:inline-block;
+    vertical-align: middle;
+    font-size:12px;
+    padding:2px 2px;
+}
+
+.watermarks-text-container .hwt-container {
+    width:100%;
+}
+
+.watermarks-text-area .hwt-input {
+    height: 70px;
+    overflow: auto;
+    resize: vertical;
+    
+}
+
+.watermarks-text-container .hwt-content mark {
+    background-color: lightgrey;
+    border-radius:3px;
+}
+
+/*.watermark-tag {
+    color:#fff;
+    border: 1px #2e6da4;
+    background-color: #257ab6;
+    border-radius: 4px;
+    cursor: text;   
+}*/
+
+.watermark-position-button {
+    position:relative;
+    display:inline-block;
+    font-family: Arial;
+    font-size:16px;
+    width: 50px;
+    height:50px;
+}
+
+.watermark-position-button span {
+    position:absolute;
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    cursor:default;
+}
+
+.watermark-position-button[aria-pressed=true] {
+    background-color: #ccc;
+}
+
+.horizontal-top.watermark-position-button span {
+    top: 5%;
+    left:50%;
+    transform: translate(-50%, 0);
+}
+
+.horizontal-center.watermark-position-button span {
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.horizontal-bottom.watermark-position-button span {
+    bottom: 5%;
+    left:50%;
+    transform: translate(-50%, 0);
+}
+
+.diagonal-top.watermark-position-button span {
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.diagonal-bottom.watermark-position-button span {
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+
+select.selected-watermark.selected-watermark {
+    display:inline-block;
+    vertical-align:middle;
+    width: 80%;
+}
+
+.selected-watermark + .delete-button {
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.watermark-image-container {
+    height:140px;
+    width: 106px; 
+    border: 2px solid #204d74; 
+    border-radius: 8px; 
+    position:relative
+}
+
+.watermark-image {
+    position: absolute; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size:20px;
+    line-height:19px;
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    cursor:default;
+    left:5%;
+    transform-origin:0 0;
+}
+
+.watermark-image.horizontal-top {
+    top: 5px;
+}
+
+.watermark-image.horizontal-center {
+    top:50%;
+    transform: translate(0, -50%);
+}
+
+.watermark-image.horizontal-bottom {
+    bottom:5px;
+    transform-origin:0 100%;
+}
+
+.watermark-image.diagonal-top {
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+    transform: translate(-50%, -50%) rotate(53deg);
+}
+
+.watermark-image.diagonal-bottom {
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+    transform: translate(-50%, -50%) rotate(-53deg);
+}
+
+.watermark-image.transparent {
+    opacity: .5;
+}
+
+.watermark-position-toolbar {
+    margin-bottom:18px;
+}

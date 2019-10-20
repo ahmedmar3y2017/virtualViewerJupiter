@@ -1,0 +1,1170 @@
+@CHARSET "ISO-8859-1";
+
+div#virtualViewerMain {
+    position: absolute;
+    
+    height: 99%;
+    width: 100%;
+}
+
+body {
+    z-index: 1;
+    
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+    position:fixed;
+
+    padding-top:10px;
+}
+
+div#vvImageAndThumbs {
+    position: absolute;
+    
+    top: 32px;
+    bottom: 10px;
+    left: 28px;
+    right: 15px;
+}
+
+div#vvAnnToolbar, div#vvToolbar {   
+    position: absolute;
+    border: none;
+    background-color: white;
+    cursor:default;
+}
+    
+div#vvToolbar {    
+    top: 0px;    
+    height: 32px;
+    min-height: 32px;
+    width: 100%;    
+    margin-top: -4px;
+}
+
+
+div#vvAnnToolbar {
+    top: 40px;
+    left: 0;
+    bottom:0;
+    width: 28px;
+    height: 100%;
+}
+
+/* close to bootstrap's xs screen size - ann toolbar is hidden */
+@media (max-width: 767px) {
+    div#vvToolbar {
+        padding-left: 14px;
+    }
+}
+
+ul#vvImageTabs, ul#vvImageTabs *, ul#vvTextAnnContextMenuList *  {
+}
+
+ul#vvImageTabs{
+    background: #257ab6;
+    min-height: 37px;
+}
+
+#vvTextAnnContextMenuList {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#vvNoteTemplateCMenuList{
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+div#vvImagePanel {
+    position: absolute;
+    
+    left: 5px;
+    right: 220px; /*RAM - Changed from 190 */
+    
+    height: 100%;
+
+    font-size: 8pt;
+}
+
+div#vvSplitPaneDiv {
+    position: absolute;
+
+    background-color: #EEEEEE;
+
+    top: 35px;
+    bottom: 0px;
+
+    left: 0px;
+    right: 0px;
+    
+
+    font-size: 8pt;
+    
+    z-index: 98;
+}
+
+div#vvSplitPaneDiv > .vvOuter {
+    position: absolute;
+
+    background-color: #EEEEEE;
+
+    top: 0px;
+    bottom: 0px;
+
+    left: 0px;
+    right: 0px;
+    
+    overflow: auto;
+
+    font-size: 8pt;
+    
+    z-index: 97;
+}
+
+.split .vvOuter {
+    position: absolute;
+    z-index: 99;
+    overflow: auto;
+    font-size: 8pt;
+}
+
+div#vvImagePanel.noThumbs {
+    right: 0px;
+}
+
+.vvThumbDivider {
+    border-top: 1px solid #257ab6;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#vvThumbs {
+    position: absolute; 
+    background-color: #EEEEEE;
+    top: 0px;
+    right: -5px;
+    width: 215px;
+    padding-left: 0px;
+    height: 100%;
+
+    font-size: 8pt;
+  
+    }
+
+#vvThumbs .tab-pane {
+    position: absolute;
+    background-color: #EEEEEE;
+    top: 50px;
+    bottom: 0px;
+    left: 20px;
+    right: 0px;
+}
+
+div#vvPageThumbs {
+
+}
+
+
+div#vvDocThumbs {
+
+}
+
+li#vvDocCompareTab {
+    display: none;
+}
+
+div#vvSearch {
+    overflow: hidden;
+}
+
+#vvSearchControls {
+    width: 195px;    
+    position: fixed;
+    margin-left: -5px;
+    padding-right: 12px;
+    z-index: 100;  /* necessary for dropdown menus */
+}
+#vvSearchTermField {
+    padding-right: 20px;    
+}
+#vvSearchPatternSelect a {
+    cursor: default;
+}
+
+div#vvSearchResults {
+    overflow-y: auto;
+    position: absolute;
+    top: 100px;
+    bottom: 0px;
+    width: 100%;
+}
+
+#vvSearchProgress 
+{
+    width: 100%;
+}
+
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/****************
+* Diff
+*****************/
+
+#vvDocCompare {
+    overflow-y: hidden;
+}
+#vvDocCompare .btn-group {
+    position: fixed;
+    margin-left: 25px;
+}
+
+#fixedPageLabel {
+    color: rgba(119, 119, 119, 0.9);
+    margin-top: 6px;
+    text-align: center;
+    margin-left: -15px;
+}
+
+.vvCannotDiffMessage {
+    font-size: small;
+    color: gray;
+}
+
+.diffPageContainer.diffPageLoading {
+    padding: 20px;
+}
+
+.diffPageContainer.diffPageLoading img {
+    margin-left: 46px;
+}
+
+#vvDocCompareInternal {
+    position: absolute;
+    top: 45px;
+    bottom: 0px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+#vvLoadMoreButton {
+    margin-top: 7px;
+    font-size: small;
+
+    color: #5a5a5a;
+    width: 170px;
+}
+
+#vvLoadMoreButton img {
+    margin-right: 5px;
+
+}
+
+.vvDiffButton > img, .vvDiffButton.mouseDown[aria-disabled="true"] > img {
+    height: 22px;
+    width: 22px;
+}
+
+.vvDiffButton[aria-disabled="true"] {
+    opacity: 0.2;
+}
+
+.vvChangedText {
+    overflow: hidden;
+}
+
+.vvChangeRemoved span {
+    background-color: rgba(238, 41, 77, 0.2);
+}
+
+.vvChangeObject.vvChangeRemoved:hover span {
+    background-color: rgba(238, 41, 77, 0.4);
+}
+
+.vvChangeAdded span {
+    background-color: rgba(93, 223, 134, 0.2);
+}
+
+.vvChangeObject.vvChangeAdded:hover span {
+    background-color: rgba(93, 223, 134, 0.4);
+}
+
+.btn.vvDiffPageCollapseButton:focus, .btn.vvDiffPageCollapseButton:active, .btn.vvDiffPageCollapseButton:hover {
+    outline: none;
+    box-shadow: none;
+    color:rgb(119, 119, 119) ;
+}
+
+.vvDiffPageCollapseButton {
+    display: block;
+    padding: 6px;
+    text-align: left;
+    color:rgba(119, 119, 119, 0.9);
+    font-size: small;
+}
+
+.vvDiffPageCollapseButton span.caret {
+    margin-left: 104px;
+}
+
+.vvDocComparePageDivider {
+    height: 1px;
+    width: 165px;
+    background-color: rgba(119, 119, 119, 0.34);
+}
+
+.vvNoChangesObject {
+    height: 35px;
+    padding: 5px 5px 5px 10px;
+    width: 170px;
+    margin-left: -3px;
+
+}
+
+.vvChangeObject {
+    height: 55px;
+    padding: 5px 5px 5px 10px;
+    width: 170px;
+    margin-left: -3px;
+}
+
+.vvChangeObject:hover {
+    background-color: rgb(221, 221, 221);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.vvChangeType {
+    margin-bottom: 2px;
+}
+
+
+/****************
+ * General Note *
+ ****************/
+
+.vvNoteContent {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+span#vvNoteTimeStamp {
+    color: #999999;
+}
+input#vvDocumentNoteEditContentInput {
+    width: 100%;
+}
+input#vvAnnotationNoteEditContentInput {
+    width: 98%;
+}
+button#vvNoteEditButton{
+    width: 50%;
+}
+button#vvNoteCancelEditButton {
+    width: 50%;
+}
+
+/****************** 
+ * Document Notes *
+ ******************/
+
+div#vvDocumentNotes {
+    visibility: hidden;
+    overflow-y: scroll;
+    top: 48px;
+    word-wrap: break-word;
+    font-size: 8pt;
+}
+div#vvDocumentNoteAdderAuthor{
+    font-weight: bold;
+}
+input#vvDocumentNoteContentInput {
+    width: 90%;
+}
+#vvDocumentNoteAddButton {
+    margin-top: 5px;
+    width: 90%;
+    background-color: #e0e0e0;
+}
+
+#vvDocumentNoteTemplateButton{
+    width:90%;
+    background-color: #e0e0e0;
+}
+
+/********************
+ * Annotation Notes *
+ ********************/
+
+div#vvAnnotationNotes {
+    display: none;
+    
+    font: 12px Helvetica;
+    
+    word-wrap: break-word;
+    
+    padding: 5px;
+}
+#vvAnnotationNoteAdderAuthor {
+    font-weight: bold;
+}
+#vvAnnotationNoteContentInput {
+    width: 100%;
+}
+#vvAnnotationNoteAddButton {
+    width: 100%;
+}
+#vvAnnotationNotesInternal{
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+
+div#vvInnerDiv {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+.vvVideoDiv {
+    z-index: 100;
+}
+
+div#vvBookmarks{
+    position: absolute;
+
+    overflow-y: scroll;
+    
+    background-color: #EEEEEE;
+    
+    top: 48px;
+    bottom: 0px;
+    
+    left: 20px;
+    right: 0px;
+
+    word-wrap: break-word;
+    font-size: 8pt;
+}
+
+/*
+ *     Thumbnails
+*/
+div.thumbStandIn {
+    width: 110px;
+    height: 140px;  
+    text-align: center;
+    padding-top: 60px;
+    border: 1px solid #808080;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.vvLoadingGif {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.displayedThumb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+
+    width: auto; /* Specify this for IE */
+    max-width: 140px;
+    max-height: 140px;
+
+    -moz-box-shadow: 2px 2px 2px #999999;
+    -webkit-box-shadow: 2px 2px 2px #999999;
+    box-shadow: 2px 2px 2px #999999;
+
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');
+}
+
+.vvThumbBoxWithFooter .displayedThumb {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+
+div.vvThumbBoxWithFooter div.vvThumbShadowWrapper {
+    max-width: 140px;
+    max-height: 160px;
+    -moz-box-shadow: 2px 2px 2px #999999;
+    -webkit-box-shadow: 2px 2px 2px #999999;
+    box-shadow: 2px 2px 2px #999999;
+        
+    border-radius: 0px;
+}
+
+div.vvThumbBoxWithFooter div.vvThumbShadowWrapper.vvThumbFooterNoImage, div.vvThumbBoxWithFooter.activeThumbBox div.vvThumbShadowWrapper.vvThumbFooterNoImage,
+div.vvThumbBoxWithFooter.selectedThumbBox div.vvThumbShadowWrapper.vvThumbFooterNoImage {
+    border: none;
+        
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;        
+}
+
+div.vvThumbBoxWithFooter.activeThumbBox div.vvThumbShadowWrapper {
+    border: 2px solid #808080;
+    border-radius: 0px;
+}
+
+div.vvThumbBoxWithFooter.selectedThumbBox div.vvThumbShadowWrapper {
+    border: 2px solid #2579b5;
+    border-radius: 0px;
+}
+
+.thumbStandIn.activeThumb, img.activeThumb {
+    border: 2px solid #808080;
+}
+
+.thumbStandIn.selectedThumb, img.selectedThumb {
+    border: 2px solid #257ab6;
+}
+
+img.vvLoadingGif.selectedThumb, img.vvLoadingGif.activeThumb {
+    border-style: none;
+}
+
+div.vvThumbBoxWithFooter .vvThumbImage.selectedThumb, div.vvThumbBoxWithFooter .vvThumbImage.activeThumb {
+    border-bottom: none;
+}
+
+div.vvThumbBoxWithFooter.selectedThumbBox div.vvThumbFooter.selectedThumb {
+    background-color: #2579b5;
+    color: white;
+}
+
+div.vvThumbFooter.activeThumb {
+    background-color: #808080;
+    color: white;
+}
+
+div.vvThumbBox {
+   display: block;
+   height: 140px;
+   width: 100%;
+   margin-bottom: 15px;  
+   margin-top: 10px;
+}
+
+div.vvThumbBoxWithFooter {
+    height: 160px;
+}
+
+div.vvThumbShadowWrapper {
+    margin: auto;
+    box-sizing: content-box;
+}
+
+div.vvThumbFooter.vvThumbFooterNoImage {
+   border-radius: 25px 25px 25px 25px;
+   width: 140px;
+   -moz-box-shadow: 2px 2px 2px #999999;
+   -webkit-box-shadow: 2px 2px 2px #999999;
+   box-shadow: 2px 2px 2px #999999;
+}
+
+div.vvThumbFooter { 
+    display: block;
+    background-color: #ccc;
+    color: #777777;
+   
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 20px; 
+}
+
+div.vvThumbFooter div {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.nonselectable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.grabCursorOpen {
+    cursor: url('../resources/grabOpen.gif'), url('../resources/grabOpen.cur'), grab;
+}
+
+.grabCursorClosed {
+    cursor: url('../resources/grabClosed.gif'), url('../resources/grabClosed.cur'), grabbing;
+}
+
+.guidesCursor {
+    cursor: crosshair;
+}
+
+.selectTextCursor {
+    cursor: text;
+}
+
+span#pageIndicator {
+    display: none;
+    font-family: sans-serif;
+    cursor: crosshair;
+    padding-left: 10px;
+}
+
+span#pageIndicatorInput {
+    display: none;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+   
+div#waitIndicator {
+    background: white none repeat scroll 0%;
+    border: 1px solid black;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    visibility: hidden; 
+    padding: 10px;
+    font-family: sans-serif;
+    z-index: 1000;
+}
+
+div#waitIndicator > img {
+    vertical-align: middle;
+}
+
+span#waitIndicatorText {
+    padding-left: 10px;
+}
+
+div#translucentGrey {
+    background-color: gray;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+    
+    z-index: 100;
+}
+
+.vvCanvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.vvMagnifier {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    visibility: hidden;
+    z-index: 111;
+}
+
+div#vvDummyScroller {
+    position: absolute;
+    z-index: 99;
+}
+
+div#vvSplitScroller {
+    position: absolute;
+    z-index: 97;
+}
+
+div.split-horizontal, .gutter-horizontal {
+    height: 100%;
+    float: left;
+}
+
+div.split-vertical, .gutter-vertical {
+    width: 100%;
+}
+
+div#vvInnerSplitDiv {
+    position: fixed;
+    top: 100px;
+}
+
+canvas#vvSplitCanvas {
+    position: absolute;
+    z-index:99;
+}
+
+canvas#vvImageCanvas {
+    z-index: 98;  
+}
+
+div#jqContextMenu {
+    overflow: hidden;
+}
+
+/* tabs stuff */
+
+.ui-tabs-panel {
+    overflow: auto;
+}
+
+div#vvImagePanel > div#ui-tabs-2 {
+    visibility: hidden; 
+    position: fixed;
+}
+
+div#vvImagePanel > div#ui-tabs-1 {
+    visibility: hidden; 
+    position: fixed;
+}
+
+.thumbPanel {
+    display: block;
+}
+.thumbPanel:not(.active) {
+    visibility:hidden;
+}
+
+span.vvNotesCloseButton {
+    float: right;
+}
+
+span.vvBookmarksCloseButton {
+    float: right;
+}
+
+.vvNotesCloseButton:hover {
+    background-color: #999999;
+}
+
+.thumbTabs {
+    max-width: 37px;
+}
+
+#vvThumbsTabs{
+    width:inherit;
+    background-color: #257ab6;
+    height: 37px;
+}
+
+#vvThumbsTabs.vvShrinkTabsToFitSixThumbs .thumbTabs {
+    width: 16.5%;
+}
+
+.thumbTabs a {
+    width: 100%;
+}
+
+#vvThumbsTabs.vvFiveThumbs .thumbTabs {
+    width: 20%;
+    max-width: 50px;
+}
+
+#vvThumbsTabs.vvShrinkTabsToFitSixThumbs a .icon, #vvThumbsTabs a .icon {
+    padding-left: 0px;
+}
+
+#vvThumbsTabs.vvShrinkTabsToFitSevenThumbs a .icon, #vvThumbsTabs.vvFiveThumbs a .icon {
+    padding-left: 2px;
+}
+
+#vvThumbsTabs.vvShrinkTabsToFitSevenThumbs a {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#vvThumbsTabs.vvShrinkTabsToFitSevenThumbs .thumbTabs:last-of-type a,
+#vvThumbsTabs.vvShrinkTabsToFitSixThumbs .thumbTabs:last-of-type a {
+    /* There may be a bit of extra space to the right of the final thumb button.
+     * Disguise it by removing the border */
+    border-right: none;
+}
+
+#vvThumbsTabs.vvShrinkTabsToFitSevenThumbs .thumbTabs {
+    width: 14.2%;
+}
+
+li a span.vvTabTextSpan.shortenTab::before {
+    content: '';
+    width: 90%;
+    height: 75%;    
+    position: absolute;
+    left: 0;
+    top: 5px;
+    background: linear-gradient(to right, transparent 60%, #257ab6);
+    background: -webkit-linear-gradient(left, rgba(37, 122, 182, 0) 60%, rgba(37, 122, 182, 1));    
+}
+
+li a span.vvTabTextSpan.shortenTabSixteen::before {
+    width: 85%;
+}
+
+li.active a span.vvTabTextSpan.shortenTab::before,
+li.active a:hover span.vvTabTextSpan.shortenTab::before,
+li.active a:focus span.vvTabTextSpan.shortenTab::before {
+    background: linear-gradient(to right, transparent 60%, white);
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 1));
+}
+
+li a:hover span.vvTabTextSpan.shortenTab::before,
+li a:focus span.vvTabTextSpan.shortenTab::before {
+    background: linear-gradient(to right, transparent 60%, #4c91cd);
+    background: -webkit-linear-gradient(left, rgba(76, 145, 205, 0) 60%, rgba(76, 145, 205, 1));
+}
+
+button.close.vvTabCloseButton {
+    padding-left: 3px;
+    margin-left: 5px;
+}
+
+.dragOverTab{
+    background-color: #c9e2f3 !important;
+}
+
+.dropdown-menu > li.docTabs > a {
+    padding: 7px 6px;
+}
+
+.dropdown-menu > li.docTabs {
+    position: relative;
+}
+
+#collapseTab{
+    float: right;
+    height: 37px;
+}
+
+#collapseTabButton{
+    height: 100%;
+    background-color: #257ab6;
+    border-color: #4c91cd;
+    border-radius: 0px;
+    border-width: 0px 1px 0px 1px;
+}
+#collapseTabButton.active,
+#collapseTabButton[aria-expanded="true"],
+#collapseTabButton[aria-expanded="true"]:hover,
+#collapseTabButton[aria-expanded="true"]:focus {
+    background-color: #ffffff;
+    border-width: 0.25px;
+    box-shadow: none;
+}
+
+#collapseTabButton:hover{
+    background-color: #4c91cd;
+}
+
+ul#collapsed {
+    background: #257ab6;
+    padding: 0px;
+    border-radius: 0px;    
+}
+#collapsed li a {
+    background:#257ab6;
+    color:#ffffff;
+}
+
+#collapsed li.active a,
+#collapsed li.active a:hover, 
+#collapsed li.active a:focus {
+    background:#ffffff;
+    color: #555555;
+}
+
+#collapsed li a:hover,
+#collapsed li a:focus {
+    background:#4c91cd;
+    color:#ffffff;
+}
+
+span#vvSearchProgressText {
+    position: absolute; 
+    width: 100%; 
+    line-height: 1.9em;
+}
+
+span#vvSearchProgressCancel {
+    position: absolute; 
+}
+
+.thumbTabs a > span {
+    background-size: 20px 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 22px;
+    height: 21px;
+    display: block;
+    margin: 0 auto;
+}
+
+#vvSearchControls .btn-group {
+    padding-top: 5px;
+}
+
+#vvSearchControls .btn[aria-disabled="true"] {
+    cursor: default;
+}
+
+#vvSearchPattern {
+    padding-top: 3px;
+    float: left;
+}
+
+
+#vvSearchTerm .btn, #vvMainSearchButtons .btn {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#vvMainSearchButtons .btn-toolbar {
+    margin-left: 6px;
+}
+
+.vvNoSearchResults {
+    padding: 15px;
+    margin-right: 15px;
+    background-color: #ddd;
+    text-align: center;
+    color: #666;
+    border-radius: 7px; 
+    cursor: default;
+    font-size: 12px;
+}
+
+/** Annotation info list **/
+
+#vvAnnotationsListFilter.form-group-sm input {
+    padding-right: 23px;    
+}
+
+#vvAnnotationsListInternal {
+    padding-top: 5px;
+    padding-right: 3px;
+}
+
+#vvFilterOptionsDropdownOptions {
+    max-height: 300px;
+    max-width: 200px;
+    overflow-y: auto;
+}
+
+#vvFilterOptionsDropdownOptions a {
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;    
+}
+
+.vvAnnotationItem .vvAnnInfoEntry {
+    display: inline-block;
+}
+
+.vvAnnotationListItemTitle {
+    width: 60%;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.vvAnnotationlistItemPage {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    overflow-x: visible;    
+}
+
+.vvAnnotationListInfoText {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    margin-bottom: 6px;
+    font-size: larger;
+}
+.vvAnnotationListItemInfo label {
+    margin-bottom: 2px;
+}
+
+.vvAnnotationItem {
+    padding: 3px 3px;
+}
+
+.vvAnnotationItem:hover, .vvAnnotationItem:focus, .vvAnnotationItem:active {
+    background-color: rgb(221, 221, 221);
+    border-radius: 3px;
+    cursor: pointer;  
+}
+
+#vvClipboardTextarea
+{
+   width: 100%;
+   height: 400px;
+   font-family:courier;
+   font-size:0.8em;
+   border: 0px;
+   
+}
+
+/* Validation Styles */
+input[type="text"][aria-invalid="true"], input[type="email"][aria-invalid="true"] {
+    background-color: #FFBBBB;
+}
+
+input[type="email"][aria-invalid="false"][disabled="false"], input[type="email"][aria-invalid="true"][disabled="false"]:focus {
+    background-color: white;
+}
+
+/* This is a hack to work around a bug in Safari/Webkit with images embedded in SVGs */
+#vvSafariSVGWorkaround
+{
+    top: -10px;
+    left: -10px;
+    width: 0px;
+    height: 0px;
+}
+
+.gutter {
+  background-color: #ccc;
+  
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+  background-image: url("../resources/vertical.png");
+  cursor: ew-resize;
+}
+
+.gutter.gutter-vertical {
+  background-image: url("../resources/horizontal.png");
+  cursor: ns-resize;
+  left: 24px;
+}
+
+.split {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.disabledTab{
+    cursor: not-allowed;
+}
+
+li.disabledTab > a[data-toggle="tab"] {
+    pointer-events: none;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .65;
+}
+
+div.split {
+    border-style:solid;
+    border-width:4px;
+    border-color: #EEE;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+div.vvActivePane {
+    border-color: #257ab6;
+    border-width: 2px;
+}
+
+#vvSplitCloseButton {
+    position: fixed;
+    background-color:  #ccc;
+    margin-left: -4px;
+    margin-top: -4px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+#vvSplitCloseButton span {
+    font-size: 14px;
+    padding-right: 3px;
+}
+
+#Split1.vvActivePane #vvSplitCloseButton {
+    background-color:  #257ab6;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color:white;
+}
+
+#vvSplitCloseX {
+    float: none;
+    font-size: 15px;
+    margin-top: 0px;
+    opacity: 0.8;
+}
+#Split1.vvActivePane #vvSplitCloseX { 
+    color: white;
+}
+
+#vvSplitCloseButton #vvSplitCloseText {
+    display: none;
+}
+
+#vvSplitCloseButton:hover #vvSplitCloseText {
+    display: inline-block;
+} 
+
+div#vvSnowboundLogo {
+    position:absolute;
+    bottom:50px;
+    width:25px;
+    height:25px;
+    left:5px;
+}
+ 
+iframe.vvPrintFrame {
+    width: 1px;
+    height: 1px;
+    top: -300px;
+    left: -300px;
+    border: 0px;
+    z-index: 1;
+}
+
+iframe.vvPrintFrame.onScreen {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 1px;
+    height: 1px;
+    z-index: 100000;
+}
+
+
+/* Important media queries */
+@media (hover:on-demand), (hover: none) {
+    div.tooltip {
+        display: none !important;
+    }
+}

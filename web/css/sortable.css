@@ -1,0 +1,25 @@
+body.dragging, body.dragging * {
+  cursor: move !important;
+}
+
+.dragged {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2000;
+}
+
+li.placeholder {
+  position: relative;
+  /** More li styles **/
+}
+li.placeholder:before {
+  position: absolute;
+  /** Define arrowhead **/
+  content:"";
+  display:block;
+  top: 0px;
+  height:1px;
+  width: 100%;
+  border: 1px solid transparent;
+  background:#257ab6;
+}

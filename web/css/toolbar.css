@@ -1,0 +1,418 @@
+/* Image Controls Toolbar */
+
+div#vvAnnToolbar *, div#vvToolbar * {
+    cursor:default;
+}
+
+.vvToolbarItem {
+    background-color: transparent;
+    border: none;
+}
+
+#vvAnnToolbar.vvHidden, #vvAnnToolbarHamburgerItems.vvHidden, #vvToolbarItems.vvHidden{
+    display: none !important;
+}
+
+.vvHidden{
+    display: none !important;
+}
+
+.dropdown-menu .vvToolbarItem {
+    width: 100%;
+}
+
+.dropdown-menu .icon {
+    display: none;
+}
+
+li.dropdown.open > a.vvToolbarItem[aria-expanded="true"] {
+    background-color: transparent;
+}
+
+#vvMidSizeAnnToolbarItems > li > .dropdown-toggle.vvToolbarItem {
+    padding: 10px 0px 10px 0px;
+    margin-left: 5px;
+    width: 40px;
+}
+
+#vvMidSizeToolbarItems  > li > .dropdown-toggle.vvToolbarItem {
+    padding: 0px 7px 0px 7px;
+}
+
+
+#vvAnnToolbar > div.container-fluid, #vvAnnToolbarItems {
+    padding-left: 2px;
+}
+
+#vvAnnToolbar span.caret {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+#vvAnnToolbar .dropdown-menu {
+    left: 34px;
+    top: 0px;
+}
+#vvAnnToolbar ul.dropdown-menu{
+    overflow: auto;
+    max-height: 500px;
+}
+
+    
+#vvToolbar.vvHamburgerMenuShown {
+    height: 100%;
+}
+
+#vvToolbarHamburger {
+    float: left;
+    border: none;
+}
+
+#vvToolbar #vvThumbToggleButton {
+    width: 24px;
+    height: 24px;
+    border: none;
+    float: right;
+    margin-right: 15px;
+}
+
+.vvHasSubMenu {
+    position: relative;
+}
+
+.vvHasSubMenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+div.vvJumpToPageLabel {
+    float: left;
+    width: 35px;
+    margin-top:3px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.vvJumpToPageInput {
+    float: left;
+}
+
+
+.dropdown .vvJumpToPageWidget {
+    float: left;
+}
+
+a.vvJumpToPage > span {
+    display: none;
+}
+
+#vvThumbs .tab-pane.show-control-panel {
+    top: 85px;
+}
+
+#vvThumbs .tab-pane.show-control-panel .vvRightPaneControlPanel {
+    display:block;    
+}
+
+.vvRightPaneControlPanel {
+    position: fixed;
+    top: 92px;
+    margin-left: -5px;
+    width: 183px;
+    height: 30px;
+    display:none;
+}
+
+/*Prevent IE and Edge from showing their own clear button 'X'*/
+input::-ms-clear {    
+    display: none;
+}
+
+#vvAnnButtonContainer {
+    position: fixed;
+    top: 87px;
+    margin-left: 40px;
+    width: 100px;
+    height: 30px;
+    display: none;
+}
+
+.vvToolbarButton, #vvAnnButtonContainer .vvToolbarButton.mouseDown[aria-disabled="true"] {
+    width: 26px;
+    height: 26px;
+    background-size: 26px;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    margin: 2px;
+    float: left;
+    border: none;
+}
+
+#vvAnnButtonContainer .vvToolbarButton[aria-disabled="true"] {
+    opacity: 0.4;
+}
+
+#vvAnnotationIndicatorToggle {
+    display: none;
+    width: 24px;
+    height: 24px;
+    border: none;
+    position: fixed;
+    top: 83px;
+    right: 34px;
+}
+
+#vvPageThumbs.vvAnnotationNavigation #vvAnnButtonContainer {
+    display: block;
+}
+
+#vvPageThumbs.vvAnnotationNavigation {
+    top: 125px;
+}
+
+#vvPageThumbs.vvAnnotationNavigationHidden {
+    top: 80px;
+}
+
+.vvAnnotationIndicatorCheckmark {
+    width: 23px;
+    height: 26px;    
+    position: absolute;
+    right: 4%;
+}
+
+/* Annotation Toolbar */
+
+.tooltip {
+    position: fixed;
+}
+
+/* Size-based CSS. Switching away from media queries */
+
+/* Medium-sized toolbar (using dropdowns for the buttons) */
+#vvToolbar.vvMediumSize #vvToolbarItems .dropdown-menu li {
+    width: 100%;
+}
+#vvToolbar.vvMediumSize #vvUncategorizedToolbarItems > li.vvToolbarItem > a.vvToolbarItem {
+    padding: 1px 7px 0px 7px;
+}
+#vvToolbar.vvMediumSize #vvToolbarItems ul.vvMidSize.dropdown-menu ul.dropdown-menu {
+    margin-left: 125px;
+    top: 0px;
+}
+
+#vvToolbar.vvMediumSize, #vvToolbar.vvLargeSize {
+    margin-left: 3px;
+}
+
+#vvToolbar.vvMediumSize.vvPushOverForAnnToolbar, #vvToolbar.vvLargeSize.vvPushOverForAnnToolbar {
+    margin-left: 19px;
+}
+
+.vvMediumSize #vvSnowboundLogo {
+    margin-left: 5px;
+}
+
+#vvToolbar.vvMediumSize #vvUncategorizedToolbarItems .vvToolbarItemName {
+    display: none;
+}
+
+#vvToolbar.vvMediumSize ul.vvImageToolbarGroup {
+    display: none !important;
+}
+
+#vvToolbar.vvMediumSize .caret {
+    vertical-align: baseline;
+}
+
+#vvToolbar.vvMediumSize ul#vvMidSizeToolbarItems {
+    display: block !important;
+}
+
+
+/* Large-sized toolbar with all the buttons laid out */
+#vvToolbar.vvLargeSize #vvToolbarItems .vvToolbarItem {
+    padding: 0px;
+    width: 29px;
+}
+
+#vvToolbar.vvLargeSize #vvToolbarItems ul.dropdown-menu li {
+    padding: 10px;
+}
+
+#vvToolbar.vvLargeSize #vvToolbarItems .vvSubGroupSeparator {
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+#vvToolbar.vvLargeSize #vvToolbarItems > ul {
+    margin-right: 24px;
+}
+
+#vvToolbar.vvLargeSize #vvToolbarItems .vvToolbarItem.vvJumpToPage {
+    margin-top: 0px;
+    width: 115px;
+}   
+
+#vvToolbar.vvLargeSize #vvToolbarItems .vvJumpToPageInput {
+    height: 24px;
+    margin-top: 3px;
+}
+
+#vvToolbar.vvLargeSize #vvToolbarItems > ul > li > a > span.vvToolbarItemName {
+    display: none;
+}
+
+#vvToolbar.vvLargeSize #vvMidSizeToolbarItems {
+    display: none;
+}    
+
+/* Medium-sized annotation toolbar (using dropdowns for the buttons) */
+#vvAnnToolbar.vvMediumSize .dropdown-menu li {
+    width: 100%;
+}    
+
+#vvAnnToolbar.vvMediumSize ul.vvMidSize.dropdown-menu ul.dropdown-menu {
+    margin-left: 125px;
+    top: 0px;
+    overflow:auto;
+    max-height: 300px;
+}
+
+#vvAnnToolbar.vvMediumSize #vvUncategorizedAnnToolbarItems > li.vvToolbarItem > a.vvToolbarItem {
+    padding-left: 5px;
+}
+
+#vvAnnToolbar.vvMediumSize #vvMidSizeAnnToolbarItems ul.vvMidSize {
+    margin-left: 12px;
+    overflow: visible;
+    
+}
+
+#vvAnnToolbar.vvMediumSize .caret {
+    vertical-align: baseline;
+}
+
+#vvAnnToolbar.vvMediumSize ul.vvAnnotationToolbarGroup {
+    display: none !important;
+}
+
+#vvAnnToolbar.vvMediumSize ul#vvMidSizeAnnToolbarItems {
+    display: block !important;
+}
+
+#vvAnnToolbar.vvMediumSize #vvUncategorizedAnnToolbarItems .vvToolbarItemName {
+    display: none;
+}
+
+/* Regular-sized annotation toolbar (with all the buttons laid out) */
+#vvAnnToolbar.vvLargeSize #vvAnnToolbarItems .vvSubGroupSeparator {
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+#vvAnnToolbar.vvLargeSize #vvAnnToolbarItems > ul {
+    margin-bottom: 24px;
+}
+
+#vvAnnToolbar.vvLargeSize .vvToolbarItem {
+    padding: 0px 0px 3px 0px;
+}
+
+#vvAnnToolbar.vvLargeSize .dropdown-menu *, #vvToolbar.vvLargeSize .dropdown-menu * {       
+    width: 100%;
+}
+
+#vvAnnToolbar.vvLargeSize .vvToolbarItemName {
+    display: none !important;
+}
+
+#vvAnnToolbar.vvLargeSize #vvMidSizeAnnToolbarItems {
+    display:none;        
+}
+
+
+#vvToolbar.vvLargeSize #vvToolbarItems li.vvHasSubDropdown ul .vvToolbarItemName,
+#vvToolbar.vvMediumSize #vvToolbarItems li.vvHasSubDropdown ul .vvToolbarItemName {
+    display: block;
+}
+#vvToolbar.vvLargeSize #vvToolbarItems li.vvHasSubDropdown ul li, #vvToolbar.vvLargeSize #vvToolbarItems li.vvHasSubDropdown ul li a,
+#vvToolbar.vvMediumSize #vvToolbarItems li.vvHasSubDropdown ul li, #vvToolbar.vvMediumSize #vvToolbarItems li.vvHasSubDropdown ul li a {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        float: right;
+    }
+}
+
+/* Media queries go at the bottom, because the order they're in can matter */
+@media (max-width: 767px) {
+    
+    #vvToolbarItems .vvJumpToPage {
+        padding-top: 0px;
+        margin-bottom: 7px;
+    }
+
+    #vvToolbarItems .vvJumpToPageInput {
+        width: 115px;
+        margin-top: 0px;
+    }   
+
+    #vvToolbarHamburger {
+        margin-top: 0px;
+        padding: 7px 10px;
+    }
+
+    #vvToolbarHamburger .icon-bar {
+        background-color:#267ab4;
+    }
+
+    #vvToolbarHamburger.mouseDown .icon-bar {
+        margin-bottom: 6px;
+    }
+
+    #vvToolbarHamburger:hover, #vvToolbarHamburger:focus {
+        background-color: transparent;
+    }
+
+    #vvToolbar #vvThumbToggleButton {
+        margin-right: 30px;
+        margin-top: 3px;
+    }
+
+    /* Make sure the hamburger menu can scroll */
+
+    #vvToolbar .navbar-header {
+        position: absolute;
+        width: 100%;
+    }
+
+    #vvToolbar {
+        height: 100% !important;
+        position: absolute;
+    }
+    #vvToolbar .container-fluid {
+        height: 100% !important;
+        position: absolute;
+        width: 100%;
+    }
+
+    #vvToolbarItems.overflowScroll {
+        overflow: hidden;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: auto;
+        position: absolute;
+        top: 45px;
+        bottom: 10px;
+        left: 30px;
+        right: 30px;
+    }
+}
